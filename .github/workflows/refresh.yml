@@ -1,0 +1,40 @@
+name: Refresh AIGC archive
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+      - run: npm run sync
+      - run: npm run test:catalog
+      - run: npm run build
+
+      - name: Open a reviewable refresh PR
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: automation/aigc-weekly-refresh
+          delete-branch: true
+          commit-message: "chore: refresh machine-discovered works"
+          title: "chore: refresh machine-discovered works"
+          body: |
+            Weekly machine discovery refresh.
+
+            Review the new metadata, award evidence and downloaded covers before merging.
+          labels: automated-refresh

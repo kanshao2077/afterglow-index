@@ -1,0 +1,237 @@
+{
+  "startDate": "2026-08-01",
+  "weeklyTarget": 7,
+  "weeklyRange": {
+    "min": 5,
+    "max": 9
+  },
+  "machineRules": {
+    "minimumSignalScore": 7,
+    "requiredFields": ["title", "creator", "sourceUrl", "coverUrl"]
+  },
+  "sources": [
+    {
+      "id": "runway-aiff-screening-room",
+      "name": "Runway AI Film Festival",
+      "adapter": "runway-aiff-screening",
+      "url": "https://aif.runwayml.com/screening-room",
+      "evidenceUrl": "https://aif.runwayml.com/screening-room",
+      "awardName": "Runway AI Film Festival",
+      "years": [2025, 2024, 2023],
+      "maxItems": 24,
+      "defaultType": "AI 影片",
+      "defaultTools": ["Runway"],
+      "allowedHosts": [
+        "aif.runwayml.com",
+        "aiff.runwayml.com",
+        "d3phaj0sisr2ct.cloudfront.net"
+      ]
+    },
+    {
+      "id": "project-odyssey-season-2",
+      "name": "Project Odyssey",
+      "adapter": "project-odyssey-awards",
+      "url": "https://www.projectodyssey.ai/season-2-awards",
+      "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
+      "awardName": "Project Odyssey Season 2",
+      "awardYear": 2025,
+      "publishedAt": "2025-02-01",
+      "maxItems": 12,
+      "defaultType": "AI 影片",
+      "defaultTools": [],
+      "allowedHosts": [
+        "www.projectodyssey.ai",
+        "projectodyssey.ai",
+        "cdn.prod.website-files.com"
+      ]
+    },
+    {
+      "id": "bilibili-hot-aigc",
+      "name": "Bilibili 热门 AIGC",
+      "adapter": "bilibili-hot-ranking",
+      "url": "https://api.bilibili.com/x/web-interface/ranking/v2?rid=0&type=all",
+      "minimumViews": 100000,
+      "maxItems": 5,
+      "discoveryTerms": ["AI短片", "AI 影片", "AIGC", "Seedance", "即梦", "可灵"],
+      "defaultType": "AI 短片",
+      "defaultTools": [],
+      "seedBvids": [
+        { "bvid": "BV1FFRQB2Eqw", "tools": ["Seedance"] },
+        { "bvid": "BV1rHbY6MEB9", "tools": ["Seedance", "GPT Image"] },
+        { "bvid": "BV1Bng369Ets", "tools": ["Seedance", "Dreamina"] },
+        {
+          "bvid": "BV1a9dZBoEyi",
+          "title": "告别",
+          "creator": "编导李让（B站发布：闲人剪辑师）",
+          "summary": "从第一人称视角穿过人生不同阶段的告别，B站发布页明确标注灵感来源为编导李让。",
+          "tools": ["Seedance", "Seko"]
+        },
+        { "bvid": "BV1VbPMzgEqV", "tools": ["Kling"] }
+      ],
+      "allowedHosts": [
+        "api.bilibili.com",
+        "www.bilibili.com",
+        "i0.hdslb.com",
+        "i1.hdslb.com",
+        "i2.hdslb.com"
+      ]
+    },
+    {
+      "id": "reply-aiff-2025",
+      "name": "Reply AI Film Festival",
+      "adapter": "seeded-oembed",
+      "evidenceUrl": "https://www.reply.com/en/newsroom/news/love-at-first-sight-by-jacopo-reale-is-the-winning-short-film-of-the-reply-ai-film-festival-the-international-competition-that-bridges-cinema-and-ai",
+      "awardName": "Reply AI Film Festival",
+      "awardYear": 2025,
+      "defaultType": "AI 影片",
+      "defaultTools": [],
+      "defaultSummary": "Reply AI Film Festival 2025 获奖作品。",
+      "items": [
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=Wyf6bGvxses",
+          "coverOverride": "https://images.weserv.nl/?url=i.ytimg.com/vi/Wyf6bGvxses/hqdefault.jpg&w=640&output=jpg",
+          "title": "Love at First Sight",
+          "creator": "Jacopo Reale",
+          "summary": "一个关于凝视、想象与羞涩情感的短片，全部画面由 Kling 2.0 生成。",
+          "publishedAt": "2025-04-15",
+          "tools": ["Kling"],
+          "awardResult": "First Prize"
+        },
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=dfludfofQGw",
+          "coverOverride": "https://images.weserv.nl/?url=i.ytimg.com/vi/dfludfofQGw/hqdefault.jpg&w=640&output=jpg",
+          "title": "The Cinema That Never Was",
+          "creator": "Mark Wachholz",
+          "summary": "一封写给那些从未被拍出来的电影的影像书信，让生成模型成为虚构电影史的考古工具。",
+          "publishedAt": "2025-04-18",
+          "tools": ["Kling", "Hunyuan", "Runway"],
+          "awardResult": "Second Prize"
+        },
+        {
+          "provider": "vimeo",
+          "url": "https://vimeo.com/1086424351",
+          "coverOverride": "https://i.vimeocdn.com/video/2161287265-4c8dd0dc63a544daa6ab49a8ea3a48a8c4396255799f8ce6d815cac8c245609d-d_2400",
+          "title": "Instinct",
+          "creator": "Marcello Costa",
+          "summary": "当原始生存本能撞上现代文明，一个尼安德特人发现所谓进化也可能意味着失去。",
+          "publishedAt": "2025-05-01",
+          "tools": ["Generative AI"],
+          "awardResult": "Lexus Visionary Award"
+        },
+        {
+          "provider": "page",
+          "url": "https://shaike.ai/clown/",
+          "title": "Clown",
+          "creator": "Shanshan Jiang",
+          "summary": "真人拍摄与生成影像交织，一位小丑为了取悦观众逐渐失去自己的身份。",
+          "publishedAt": "2025-12-15",
+          "tools": ["Generative AI"],
+          "awardResult": "AI for Good Award"
+        }
+      ],
+      "allowedHosts": [
+        "www.youtube.com", "youtube.com", "i.ytimg.com", "images.weserv.nl",
+        "vimeo.com", "www.vimeo.com", "i.vimeocdn.com",
+        "shaike.ai", "www.shaike.ai"
+      ]
+    },
+    {
+      "id": "hkust-aiff-2026",
+      "name": "HKUST AI Film Festival",
+      "adapter": "seeded-oembed",
+      "evidenceUrl": "https://cveu.github.io/event/hkustfilm2026.html",
+      "awardName": "HKUST AI Film Festival",
+      "awardYear": 2026,
+      "defaultType": "AI 影片",
+      "defaultTools": [],
+      "defaultSummary": "第二届香港科技大学 AI 电影节获奖作品。",
+      "items": [
+        {
+          "provider": "page",
+          "url": "https://filmfreeway.com/TheAfterlifeofAphrodite",
+          "coverOverride": "https://cveu.github.io/img/amcfilm/certification/2026%20Award%20Winner/web/best-film.jpg",
+          "title": "The Afterlife of Aphrodite",
+          "creator": "Gabriela Cardona Walther",
+          "summary": "借古代神话与私人记忆重新寻找女性身份，把阿芙洛狄忒还原为流动、混乱与创造的力量。",
+          "publishedAt": "2025-09-06",
+          "awardResult": "Best Film Award"
+        },
+        {
+          "provider": "youtube",
+          "url": "https://www.youtube.com/watch?v=q2dxFSAeeFs",
+          "coverOverride": "https://images.weserv.nl/?url=i.ytimg.com/vi/q2dxFSAeeFs/hqdefault.jpg&w=640&output=jpg",
+          "title": "NeoNature",
+          "creator": "Javier Gracia Alcaine",
+          "summary": "一部由生成影像构成的自然纪录短片，讨论 AI 如何让更多人接近真实世界的生物多样性。",
+          "publishedAt": "2026-03-01",
+          "tools": ["Kling", "Suno", "ElevenLabs"],
+          "awardResult": "Best Debut AI Film Award"
+        },
+        {
+          "provider": "vimeo",
+          "url": "https://vimeo.com/1169344782",
+          "coverOverride": "https://i.vimeocdn.com/video/2128070483-da93353e68e35789ae6658594ee3f0c8743e178295714755850355289d840c54-d_2400",
+          "title": "Project J",
+          "creator": "Ka Tam",
+          "summary": "霓虹都市中的生化武器 J 追查禁忌实验真相，以长篇幅测试 AI 动作片的角色和场景一致性。",
+          "publishedAt": "2026-03-01",
+          "tools": ["Dreamina", "Hailuo", "Suno"],
+          "awardResult": "Best Technical Innovation Award"
+        }
+      ],
+      "allowedHosts": [
+        "filmfreeway.com", "www.filmfreeway.com", "cveu.github.io", "d21y75miwcfqoq.cloudfront.net",
+        "www.youtube.com", "youtube.com", "i.ytimg.com", "images.weserv.nl",
+        "vimeo.com", "www.vimeo.com", "i.vimeocdn.com"
+      ]
+    },
+    {
+      "id": "ai-film-landmarks",
+      "name": "AI Film Landmarks",
+      "adapter": "seeded-oembed",
+      "recognitionLabel": "行业里程碑",
+      "defaultType": "AI 影片",
+      "defaultTools": [],
+      "defaultSummary": "被行业持续讨论的生成影像代表作。",
+      "items": [
+        {
+          "provider": "vimeo",
+          "url": "https://vimeo.com/931578505",
+          "coverOverride": "https://i.vimeocdn.com/video/1828834561-076941744bf0cf64b1178b422e45c37545ab4aa65ccfee8ef23aaf3c6c5051d5-d_2400",
+          "title": "Air Head",
+          "creator": "shy kids",
+          "summary": "Sora 早期代表短片，以一个头部充满氦气的人物测试跨镜头角色一致性。",
+          "publishedAt": "2024-03-25",
+          "tools": ["Sora"]
+        },
+        {
+          "provider": "vimeo",
+          "url": "https://vimeo.com/941713443",
+          "coverOverride": "https://i.vimeocdn.com/video/1844899167-5901a68462f62772e1704b7aea3877785dd14d3d53512bada4c2765fd4c9e26c-d_2400",
+          "title": "The Hardest Part",
+          "creator": "Paul Trillo / Washed Out",
+          "summary": "沿着一段关系不断向前推进的生成音乐影像，让 Sora 的梦境逻辑成为记忆失真的叙事语言。",
+          "publishedAt": "2024-05-02",
+          "tools": ["Sora"]
+        },
+        {
+          "provider": "page",
+          "url": "https://www.thefrost.ai/",
+          "coverOverride": "https://cdn.prod.website-files.com/67576eef386242535e4d4f6e/67577e01e6e6c2a20a832fe8_image%204.png",
+          "title": "The Frost",
+          "creator": "Waymark Creative Labs",
+          "summary": "以 DALL-E 2 图像和后期动画构成的十二分钟科幻短片，是早期完整 AI 叙事电影的重要案例。",
+          "publishedAt": "2023-06-01",
+          "tools": ["DALL-E", "After Effects"]
+        }
+      ],
+      "allowedHosts": [
+        "vimeo.com", "www.vimeo.com", "i.vimeocdn.com",
+        "www.thefrost.ai", "thefrost.ai", "cdn.prod.website-files.com",
+        "assets-global.website-files.com", "uploads-ssl.webflow.com"
+      ]
+    }
+  ]
+}
