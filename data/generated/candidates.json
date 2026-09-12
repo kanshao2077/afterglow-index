@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T02:38:30.932Z",
+  "generatedAt": "2026-09-12T13:26:51.534Z",
   "policy": {
     "assignmentVersion": 2,
     "startDate": "2026-08-01",
@@ -14,10 +14,13 @@
       "id": "runway-aiff-2025-6000-lies",
       "title": "6000 Lies",
       "creator": "Simon Rieth",
-      "summary": "It is the story of a detail that is missing, or that never existed. The image of a child we are looking for and trying to recreate. Thousands of lies to find the truth.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "It is the story of a detail that is missing, or that never existed. The image of a child we are looking for and trying to recreate. Thousands of lies to find the truth.",
       "duration": "5:06",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/lies-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -35,7 +38,7 @@
         "year": 2025,
         "result": "Merit",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "ca581d147f5b15ad22813c54b93c1738f3eec4e01862c7c67c5f4cf0f30570ce",
@@ -63,9 +66,12 @@
       "title": "60岁大爷手搓20分钟AI长片《赛博英雄传》",
       "creator": "六旬老汉赵大爷",
       "summary": "感谢大家以及团队小伙子们，我们优化后的样片终于做出来了！",
+      "summaryZh": "感谢大家以及团队小伙子们，我们优化后的样片终于做出来了！",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
       "duration": "24:30",
       "sourceId": "bilibili-hot-aigc",
       "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
       "sourceUrl": "https://www.bilibili.com/video/BV1Bng369Ets/",
       "coverUrl": "https://i1.hdslb.com/bfs/archive/02c6d6e0be2d0cba827facf06d3244b2209763f9.jpg",
       "coverStrategy": "platform-api",
@@ -81,10 +87,10 @@
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 654643,
-        "likes": 79738,
-        "favorites": 32090,
-        "capturedAt": "2026-09-08T02:38:11.404Z"
+        "views": 680408,
+        "likes": 81212,
+        "favorites": 33004,
+        "capturedAt": "2026-09-12T13:26:49.264Z"
       },
       "recognition": {
         "kind": "popular",
@@ -106,7 +112,7 @@
         ],
         "missing": []
       },
-      "discoveredAt": "2026-08-05T16:00:00.000Z",
+      "discoveredAt": "2026-08-15T04:00:00.000Z",
       "cover": {
         "local": "/covers/bilibili-bv1bng369ets.jpg",
         "remote": "https://i1.hdslb.com/bfs/archive/02c6d6e0be2d0cba827facf06d3244b2209763f9.jpg",
@@ -117,10 +123,13 @@
       "id": "runway-aiff-2024-a-tree-once-grew-here",
       "title": "A Tree Once Grew Here",
       "creator": "John Semerad & Dara Semerad",
-      "summary": "A Tree Once Grew Here combines captivating visuals, animation and imagery, to tell a tale that transcends language. We are reminded that we must rebalance harmony and nurture our planet; because we can no longer afford not to.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A Tree Once Grew Here combines captivating visuals, animation and imagery, to tell a tale that transcends language. We are reminded that we must rebalance harmony and nurture our planet; because we can no longer afford not to.",
       "duration": "7:00",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/A+Tree+Once+Grew+Here.webp",
       "coverStrategy": "first-image",
@@ -138,7 +147,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "80273a3e9a89ecc3680c59b4c61caafd5f7b480321245e08ab896645ae12ebc1",
@@ -163,12 +172,15 @@
     },
     {
       "id": "project-odyssey-season-2-afrocidade-oriki",
-      "title": "Afrocidade Oriki ‍",
+      "title": "Afrocidade Oriki",
       "creator": "Luma Nascimento and Zamba",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae1c43069004f6ffa8b6b4_RunnerUp.png",
       "coverStrategy": "first-image",
@@ -184,10 +196,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
-      "fingerprint": "17d28ba7ce4cbc5f78cb1f1079641e2da0d5458bc0bb9ec65e71a70582875927",
+      "fingerprint": "53917e63fcf6db1bede890bf9f2023bc8f1416e2a137be978cab0d493227be02",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -212,9 +224,12 @@
       "title": "Ai原创短片《丧尸清道夫》-重制版，国产“爱死机”！",
       "creator": "Mx-Shell",
       "summary": "本视频由小云雀Seedance2创作生成",
+      "summaryZh": "本视频由小云雀Seedance2创作生成",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
       "duration": "3:34",
       "sourceId": "bilibili-hot-aigc",
       "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
       "sourceUrl": "https://www.bilibili.com/video/BV1FFRQB2Eqw/",
       "coverUrl": "https://i0.hdslb.com/bfs/archive/10e15901daafb84a4b4c4ad9436ea6935d0f3627.jpg",
       "coverStrategy": "platform-api",
@@ -229,10 +244,10 @@
       "publishedAt": "2026-05-09T09:27:20.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 4123207,
-        "likes": 371813,
-        "favorites": 145789,
-        "capturedAt": "2026-09-08T02:38:11.238Z"
+        "views": 4137569,
+        "likes": 372428,
+        "favorites": 146144,
+        "capturedAt": "2026-09-12T13:26:49.110Z"
       },
       "recognition": {
         "kind": "popular",
@@ -265,10 +280,13 @@
       "id": "runway-aiff-2024-animitas",
       "title": "Animitas",
       "creator": "Emeric Leprince",
-      "summary": "The tragic tale of a young Argentine trapped in limbo after a car accident comes to life through the transposition of original.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "The tragic tale of a young Argentine trapped in limbo after a car accident comes to life through the transposition of original.",
       "duration": "4:00",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Animitas.webp",
       "coverStrategy": "first-image",
@@ -286,7 +304,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "6d06412cdfe8152482f6cff580ced733042499a7be9085948d29a5d088875905",
@@ -310,13 +328,67 @@
       }
     },
     {
+      "id": "runway-aiff-2023-checkpoint",
+      "title": "Checkpoint",
+      "creator": "Áron Filkey and Joss Fong",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "An award winning Runway AI Film Festival work exploring storytelling, visual experimentation, and original expression through generative imagery.",
+      "duration": "",
+      "sourceId": "runway-aiff-screening-room",
+      "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
+      "sourceUrl": "https://aif.runwayml.com/screening-room",
+      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Checkpoint.webp",
+      "coverStrategy": "first-image",
+      "type": "AI 影片",
+      "tools": [
+        "Runway"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2023-01-01",
+      "award": {
+        "name": "Runway AI Film Festival",
+        "year": 2023,
+        "result": "Gold",
+        "evidenceUrl": "https://aif.runwayml.com/screening-room",
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "f688630c3c286878f5fcac07375169a2f3924406ea72d912ae71496a44ebc879",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-08-30T16:00:00.000Z",
+      "cover": {
+        "local": "/covers/runway-aiff-2023-checkpoint.webp",
+        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Checkpoint.webp",
+        "strategy": "first-image"
+      }
+    },
+    {
       "id": "reply-aiff-2025-clown",
       "title": "Clown",
       "creator": "Shanshan Jiang",
       "summary": "真人拍摄与生成影像交织，一位小丑为了取悦观众逐渐失去自己的身份。",
+      "summaryZh": "真人拍摄与生成影像交织，一位小丑为了取悦观众逐渐失去自己的身份。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "reply-aiff-2025",
       "sourceName": "Reply AI Film Festival",
+      "sourceNameEn": "Reply AI Film Festival",
       "sourceUrl": "https://shaike.ai/clown/",
       "coverUrl": "https://shaike.ai/wp-content/themes/Shaike/assets/images/shaike-card.jpg",
       "coverStrategy": "og:image",
@@ -334,7 +406,7 @@
         "year": 2025,
         "result": "AI for Good Award",
         "evidenceUrl": "https://www.reply.com/en/newsroom/news/love-at-first-sight-by-jacopo-reale-is-the-winning-short-film-of-the-reply-ai-film-festival-the-international-competition-that-bridges-cinema-and-ai",
-        "verifiedAt": "2026-09-08T02:38:12.532Z"
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
       },
       "aspect": "landscape",
       "fingerprint": "a62d97cacd22ffee15de1c7202a5689ba5a749bd23345d7c9680b7565aa3add5",
@@ -362,9 +434,12 @@
       "title": "Dear Grandma",
       "creator": "Danny Tseng",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae1c43069004f6ffa8b6b4_RunnerUp.png",
       "coverStrategy": "first-image",
@@ -380,7 +455,7 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
       "fingerprint": "4c6fcca972c16f6cbd5e2d8b517101366d94124b38f61b5303487e7873192f12",
@@ -407,10 +482,13 @@
       "id": "runway-aiff-2024-dear-mom",
       "title": "Dear Mom",
       "creator": "Johans Saldana Guadalupe & Katie Luo",
-      "summary": "Dear Mom is a letter from a daughter to her mom imagining if she had met her mom at her own age—20 years old. The film is about unconditional love and gratitude written through a reflective and personal letter from the filmmakers to their moms.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "Dear Mom is a letter from a daughter to her mom imagining if she had met her mom at her own age—20 years old. The film is about unconditional love and gratitude written through a reflective and personal letter from the filmmakers to their moms.",
       "duration": "3:04",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Dear+Mom.webp",
       "coverStrategy": "first-image",
@@ -428,7 +506,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "797f56bf87d8a422c74edb0623bbc4fd0283352729b43d063aed62f6e06221c3",
@@ -455,10 +533,13 @@
       "id": "runway-aiff-2025-distance-between-two-points-of-me",
       "title": "Distance Between Two Points Of Me",
       "creator": "Illya Dutsyk, Bogdan Nesvit, Anatolii Kasianov",
-      "summary": "The film contemplates what it means to lose a home, as many Ukrainians have. It gently walks through the emotional distance between presence and absence, grief and gratitude, showing how memory and hope help us stay connected to who we are.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "The film contemplates what it means to lose a home, as many Ukrainians have. It gently walks through the emotional distance between presence and absence, grief and gratitude, showing how memory and hope help us stay connected to who we are.",
       "duration": "2:27",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/distance-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -476,7 +557,7 @@
         "year": 2025,
         "result": "Honoree",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "17a06a446661fd0ff05aab7c7e124c11efdccccd47ff1004b50f85aa1941a8b6",
@@ -501,12 +582,15 @@
     },
     {
       "id": "project-odyssey-season-2-dna",
-      "title": "DNA ‍",
+      "title": "DNA",
       "creator": "Sia Rekh Hu",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae1bf5f3fc1a49efc01fa2_Render%202nd.png",
       "coverStrategy": "first-image",
@@ -522,10 +606,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.905Z"
+        "verifiedAt": "2026-09-08T15:13:03.950Z"
       },
       "aspect": "landscape",
-      "fingerprint": "305f5b2d5a59f99b2bc5c2543e031784aeefc56fc97d6bd500c935df877d064e",
+      "fingerprint": "3d0281789100d9971e670225ef20a56ee9414becbdcb4c31beef144e9d75fdd7",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -549,10 +633,13 @@
       "id": "runway-aiff-2024-e-i-1-0",
       "title": "e^(i*π) + 1 = 0",
       "creator": "Junie Lau",
-      "summary": "A retired mathematician creates digital comics, igniting an infinite universe where his virtual children seek to decode the \"truth,\" grappling with profound existential equations across time and space.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A retired mathematician creates digital comics, igniting an infinite universe where his virtual children seek to decode the \"truth,\" grappling with profound existential equations across time and space.",
       "duration": "5:07",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/e%5E(i_%CF%80)+%2B+1+%3D+0.webp",
       "coverStrategy": "first-image",
@@ -570,7 +657,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "landscape",
       "fingerprint": "18f3bcc0896191e6b66d5b19d0f78473c17c2fde90fb117f2400ef94ade5549f",
@@ -597,10 +684,13 @@
       "id": "runway-aiff-2025-editorial",
       "title": "Editorial",
       "creator": "Riccardo Fusetti",
-      "summary": "A bold and unexpected piece about femininity — contrasting the fun and playful with the surreal and horrific, the authentic with the fictitious — blending these elements into a wild, fever-dream rollercoaster.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A bold and unexpected piece about femininity — contrasting the fun and playful with the surreal and horrific, the authentic with the fictitious — blending these elements into a wild, fever-dream rollercoaster.",
       "duration": "3:28",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/editorial-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -618,7 +708,7 @@
         "year": 2025,
         "result": "Merit",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "a68a4e24c5a28261c13774e9ff4e27804cd4f182c5b0fd8cef49bcf6b5647f07",
@@ -643,12 +733,15 @@
     },
     {
       "id": "project-odyssey-season-2-elley-duhe-free-me",
-      "title": "Elley Duhé - Free Me ‍",
+      "title": "Elley Duhé - Free Me",
       "creator": "Visualsk2",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae1bf5f3fc1a49efc01fa2_Render%202nd.png",
       "coverStrategy": "first-image",
@@ -664,10 +757,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
-      "fingerprint": "32280aadfeb7131b97327f2ebfe7ca9dd0ec243aa4668b2c8995d049d4dad145",
+      "fingerprint": "47947a8cc0c424552db22ed4962f2403fb5cbaed7f366a72b122f69245429328",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -691,10 +784,13 @@
       "id": "runway-aiff-2025-emergence",
       "title": "Emergence",
       "creator": "Maddie Hong",
-      "summary": "After seventeen years underground, we emerge. Emergence invites us into the final moments of one small creature's life. Through its eyes, we experience the anticipation, the fear and the joy of becoming — and what it means to live for one moment of light.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "After seventeen years underground, we emerge. Emergence invites us into the final moments of one small creature's life. Through its eyes, we experience the anticipation, the fear and the joy of becoming — and what it means to live for one moment of light.",
       "duration": "3:35",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/emergence-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -712,7 +808,7 @@
         "year": 2025,
         "result": "Merit",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "52007f174ff897966c6cfae1ab427af1a79f7641e10c5d31473242b45ce260d6",
@@ -739,10 +835,13 @@
       "id": "runway-aiff-2025-fragments-of-nowhere",
       "title": "Fragments Of Nowhere",
       "creator": "Vallée Duhamel",
-      "summary": "A short film about the spaces between what's real and what's perceived. If reality is just another layer of perception, what happens when those layers collide? Time bends, places shift, and nothing holds still for long.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A short film about the spaces between what's real and what's perceived. If reality is just another layer of perception, what happens when those layers collide? Time bends, places shift, and nothing holds still for long.",
       "duration": "8:04",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/fragments-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -760,7 +859,7 @@
         "year": 2025,
         "result": "Merit",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "432d07885b6cc2e644b45ee8b358114925460e0640feec0ead1166c5fac2a7ef",
@@ -784,13 +883,67 @@
       }
     },
     {
+      "id": "runway-aiff-2023-generation",
+      "title": "Generation",
+      "creator": "Riccardo Fusetti",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "An award winning Runway AI Film Festival work exploring storytelling, visual experimentation, and original expression through generative imagery.",
+      "duration": "",
+      "sourceId": "runway-aiff-screening-room",
+      "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
+      "sourceUrl": "https://aif.runwayml.com/screening-room",
+      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Generation.webp",
+      "coverStrategy": "first-image",
+      "type": "AI 影片",
+      "tools": [
+        "Runway"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2023-01-01",
+      "award": {
+        "name": "Runway AI Film Festival",
+        "year": 2023,
+        "result": "Grand Prix",
+        "evidenceUrl": "https://aif.runwayml.com/screening-room",
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "ae44a1cda13457b4a0a5c9c73d878de41dee791fbe990e8ec19abeff5f3cf867",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-09-01T16:00:00.000Z",
+      "cover": {
+        "local": "/covers/runway-aiff-2023-generation.webp",
+        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Generation.webp",
+        "strategy": "first-image"
+      }
+    },
+    {
       "id": "runway-aiff-2024-get-me-out",
       "title": "Get Me Out / 囚われて",
       "creator": "Daniel Antebi",
-      "summary": "Every time Aka tries to escape this bizarre suburban American house, it doesn't let him leave. The house tortures him, making him face his past.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "Every time Aka tries to escape this bizarre suburban American house, it doesn't let him leave. The house tortures him, making him face his past.",
       "duration": "6:34",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/%E5%9B%9A%E3%82%8F%E3%82%8C%E3%81%A6.webp",
       "coverStrategy": "first-image",
@@ -808,7 +961,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "landscape",
       "fingerprint": "ae84a9f0ce7e691e47b8ab3a1b1a2f96ba3d64d4bbb9b000e0996b7a953f2283",
@@ -832,13 +985,67 @@
       }
     },
     {
+      "id": "runway-aiff-2023-given-again",
+      "title": "Given Again",
+      "creator": "Jake Oleson",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "An award winning Runway AI Film Festival work exploring storytelling, visual experimentation, and original expression through generative imagery.",
+      "duration": "",
+      "sourceId": "runway-aiff-screening-room",
+      "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
+      "sourceUrl": "https://aif.runwayml.com/screening-room",
+      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Given+Again.webp",
+      "coverStrategy": "first-image",
+      "type": "AI 影片",
+      "tools": [
+        "Runway"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2023-01-01",
+      "award": {
+        "name": "Runway AI Film Festival",
+        "year": 2023,
+        "result": "Silver",
+        "evidenceUrl": "https://aif.runwayml.com/screening-room",
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "1e89f62882210a91a33988430b2aeba21eeefbda72bb02f012fc8d32ebcf29f3",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-09-04T16:00:00.000Z",
+      "cover": {
+        "local": "/covers/runway-aiff-2023-given-again.webp",
+        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Given+Again.webp",
+        "strategy": "first-image"
+      }
+    },
+    {
       "id": "project-odyssey-season-2-h-ld",
       "title": "Høld",
       "creator": "Ø Studio",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67b42588247de7931fbf5788_Hold%20Large%20-%20Davis%20Zhang.jpeg",
       "coverStrategy": "first-image",
@@ -854,7 +1061,7 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.905Z"
+        "verifiedAt": "2026-09-08T15:13:03.950Z"
       },
       "aspect": "landscape",
       "fingerprint": "e4c328dd15228a496aefd9b9758bf7a84c9585a24444903d35e8f57819aa1e9b",
@@ -882,9 +1089,12 @@
       "title": "Instinct",
       "creator": "Marcello Costa",
       "summary": "当原始生存本能撞上现代文明，一个尼安德特人发现所谓进化也可能意味着失去。",
+      "summaryZh": "当原始生存本能撞上现代文明，一个尼安德特人发现所谓进化也可能意味着失去。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "reply-aiff-2025",
       "sourceName": "Reply AI Film Festival",
+      "sourceNameEn": "Reply AI Film Festival",
       "sourceUrl": "https://vimeo.com/1086424351",
       "coverUrl": "https://i.vimeocdn.com/video/2161287265-4c8dd0dc63a544daa6ab49a8ea3a48a8c4396255799f8ce6d815cac8c245609d-d_2400",
       "coverStrategy": "manual-override",
@@ -902,7 +1112,7 @@
         "year": 2025,
         "result": "Lexus Visionary Award",
         "evidenceUrl": "https://www.reply.com/en/newsroom/news/love-at-first-sight-by-jacopo-reale-is-the-winning-short-film-of-the-reply-ai-film-festival-the-international-competition-that-bridges-cinema-and-ai",
-        "verifiedAt": "2026-09-08T02:38:11.556Z"
+        "verifiedAt": "2026-09-08T15:13:04.493Z"
       },
       "aspect": "landscape",
       "fingerprint": "0ded4fa3acfaa2176319222a303aed24b43320ed9a0741647c17ccad072c3f10",
@@ -929,10 +1139,13 @@
       "id": "runway-aiff-2025-jailbird",
       "title": "JAILBIRD",
       "creator": "Andrew Salter",
-      "summary": "JAILBIRD invites the viewer to experience the world through the eyes of a chicken as it goes through a transformative experience -- being sent to a human prison. The film highlights how projects like this can benefit not only animals, but the lives of those who care for them.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "JAILBIRD invites the viewer to experience the world through the eyes of a chicken as it goes through a transformative experience -- being sent to a human prison. The film highlights how projects like this can benefit not only animals, but the lives of those who care for them.",
       "duration": "2:49",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/jailbird-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -950,7 +1163,7 @@
         "year": 2025,
         "result": "Gold",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.377Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "2c977e64ed660e35156d9ca9ee9daf7bd58015690d5092fbbd7e0b49dd4280be",
@@ -975,12 +1188,15 @@
     },
     {
       "id": "project-odyssey-season-2-kitsune",
-      "title": "KITSUNE 🦊 💫 ‍",
+      "title": "KITSUNE 🦊 💫",
       "creator": "Henry Daubrez",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae1bf5f3fc1a49efc01fa2_Render%202nd.png",
       "coverStrategy": "first-image",
@@ -996,10 +1212,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
-      "fingerprint": "1c28a3c652334a6a8f4916546a27e66387c4e33e988b7d43907e4526db5bec8a",
+      "fingerprint": "86a491e594d52dd295a477f69cdf5e217657b3c0bc2163fae9488cde791cbdd7",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -1023,10 +1239,13 @@
       "id": "runway-aiff-2024-l-eveil-a-la-creation-the-dawn-of-creation",
       "title": "L'éveil à la création / The dawn of creation",
       "creator": "Carlo De Togni & Elena Sparacino",
-      "summary": "A mystical voyage into Gauguin's Tahiti, revealing an introspective encounter with an ancient deity that transforms his artistic vision.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A mystical voyage into Gauguin's Tahiti, revealing an introspective encounter with an ancient deity that transforms his artistic vision.",
       "duration": "7:32",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/The+dawn+of+creation.webp",
       "coverStrategy": "first-image",
@@ -1044,7 +1263,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "d2cd9e55fd4c041fc7178f2333ce98eac66ea7f56ed30d02f16d6d7d95c90773",
@@ -1071,10 +1290,13 @@
       "id": "runway-aiff-2024-lapse",
       "title": "LAPSE",
       "creator": "YZA Voku",
-      "summary": "A series of experiences that you do not choose and that you have experienced out of fear of loneliness. A reflection on how the passing of time makes you belong nowhere, as if you were just another tune in the middle of a set of stations.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A series of experiences that you do not choose and that you have experienced out of fear of loneliness. A reflection on how the passing of time makes you belong nowhere, as if you were just another tune in the middle of a set of stations.",
       "duration": "1:47",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Lapse.webp",
       "coverStrategy": "first-image",
@@ -1092,7 +1314,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "ee3366a53b6ed030d97a0a2b012aef534b5fb82bc09718ac25f3890ab21b79b9",
@@ -1116,13 +1338,67 @@
       }
     },
     {
+      "id": "iffi-cinema-ai-hackathon-2025-lost-found",
+      "title": "Lost & Found",
+      "creator": "Samresh Shrivastav / Yagya Priya Gautam",
+      "summary": "在 48 小时的“Memories Reimagined”挑战中完成，影片以个人记忆为核心，将真实与想象重新编织成一段情感叙事。",
+      "summaryZh": "在 48 小时的“Memories Reimagined”挑战中完成，影片以个人记忆为核心，将真实与想象重新编织成一段情感叙事。",
+      "summaryEn": "A 48-hour AI short made for the Memories Reimagined challenge, turning a personal memory into an emotionally resonant story.",
+      "duration": "",
+      "sourceId": "iffi-cinema-ai-hackathon-2025",
+      "sourceName": "IFFI Cinema AI Hackathon",
+      "sourceNameEn": "IFFI Cinema AI Hackathon",
+      "sourceUrl": "https://cineprompt.in/work/lost-and-found",
+      "coverUrl": "https://cineprompt.in/work/lost-and-found-poster.png",
+      "coverStrategy": "manual-override",
+      "type": "AI 短片",
+      "tools": [
+        "Generative AI"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2025-11-25",
+      "award": {
+        "name": "IFFI Cinema AI Hackathon",
+        "year": 2025,
+        "result": "Best Storytelling Award",
+        "evidenceUrl": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2194331&lang=2&reg=3",
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "8d07f9c884c575010858bf3659c8e6da348a7608fc172a6499395c4afb210481",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-08-27T16:00:00.000Z",
+      "cover": {
+        "local": "/covers/iffi-cinema-ai-hackathon-2025-lost-found.png",
+        "remote": "https://cineprompt.in/work/lost-and-found-poster.png",
+        "strategy": "manual-override"
+      }
+    },
+    {
       "id": "reply-aiff-2025-love-at-first-sight",
       "title": "Love at First Sight",
       "creator": "Jacopo Reale",
       "summary": "一个关于凝视、想象与羞涩情感的短片，全部画面由 Kling 2.0 生成。",
+      "summaryZh": "一个关于凝视、想象与羞涩情感的短片，全部画面由 Kling 2.0 生成。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "reply-aiff-2025",
       "sourceName": "Reply AI Film Festival",
+      "sourceNameEn": "Reply AI Film Festival",
       "sourceUrl": "https://www.youtube.com/watch?v=Wyf6bGvxses",
       "coverUrl": "https://images.weserv.nl/?url=i.ytimg.com/vi/Wyf6bGvxses/hqdefault.jpg&w=640&output=jpg",
       "coverStrategy": "manual-override",
@@ -1140,7 +1416,7 @@
         "year": 2025,
         "result": "First Prize",
         "evidenceUrl": "https://www.reply.com/en/newsroom/news/love-at-first-sight-by-jacopo-reale-is-the-winning-short-film-of-the-reply-ai-film-festival-the-international-competition-that-bridges-cinema-and-ai",
-        "verifiedAt": "2026-09-08T02:38:11.555Z"
+        "verifiedAt": "2026-09-08T15:13:04.492Z"
       },
       "aspect": "landscape",
       "fingerprint": "2060fb60023b442fbf51fcc8faa871081003a2387dad79d07bce0cad29290db3",
@@ -1167,10 +1443,13 @@
       "id": "runway-aiff-2025-more-tears-than-harm",
       "title": "More Tears Than Harm",
       "creator": "Herinarivo Rakotomanana",
-      "summary": "A sensory collage of childhood memories from Madagascar with present-day impressions. Fleeting moments quietly echo within.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A sensory collage of childhood memories from Madagascar with present-day impressions. Fleeting moments quietly echo within.",
       "duration": "3:14",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/tears-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -1188,7 +1467,7 @@
         "year": 2025,
         "result": "Honoree",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "e8d65c22edf2ac0ee85a6dbd145a7ff0897b9530f6465fdbeac11c000ad472b1",
@@ -1216,9 +1495,12 @@
       "title": "NeoNature",
       "creator": "Javier Gracia Alcaine",
       "summary": "一部由生成影像构成的自然纪录短片，讨论 AI 如何让更多人接近真实世界的生物多样性。",
+      "summaryZh": "一部由生成影像构成的自然纪录短片，讨论 AI 如何让更多人接近真实世界的生物多样性。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "hkust-aiff-2026",
       "sourceName": "HKUST AI Film Festival",
+      "sourceNameEn": "HKUST AI Film Festival",
       "sourceUrl": "https://www.youtube.com/watch?v=q2dxFSAeeFs",
       "coverUrl": "https://images.weserv.nl/?url=i.ytimg.com/vi/q2dxFSAeeFs/hqdefault.jpg&w=640&output=jpg",
       "coverStrategy": "manual-override",
@@ -1238,7 +1520,7 @@
         "year": 2026,
         "result": "Best Debut AI Film Award",
         "evidenceUrl": "https://cveu.github.io/event/hkustfilm2026.html",
-        "verifiedAt": "2026-09-08T02:38:12.532Z"
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
       },
       "aspect": "landscape",
       "fingerprint": "43d0e20408d4c5b15b1fa055db14ea55df7f13528d7c4685a57182e0f9a3dd99",
@@ -1263,12 +1545,15 @@
     },
     {
       "id": "project-odyssey-season-2-newton-s-cradle",
-      "title": "Newton's Cradle ‍",
+      "title": "Newton's Cradle",
       "creator": "Jeff Synthesized",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67b42103d5f25f6f993aa923_IMG_0415%20-%20Jeff%20Synthesized.JPG",
       "coverStrategy": "first-image",
@@ -1284,10 +1569,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
-      "fingerprint": "1c370b90f254d213def6e46f46cec3dde83177f1e66815dab5d6c6ff8feee6bb",
+      "fingerprint": "4bb3b8fe1dda94c93ea99c3cce31a85d809890b3d2e9d0df6f04fec91a2a6e5c",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -1311,10 +1596,13 @@
       "id": "runway-aiff-2025-one",
       "title": "ONE",
       "creator": "Ricardo Villavicencio & Edward Saatchi",
-      "summary": "After Earth collapses, a crew of transhumans follows the path of Voyager I to a distant planet, only to find it inhabited by lost souls desperate to reclaim human bodies again.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "After Earth collapses, a crew of transhumans follows the path of Voyager I to a distant planet, only to find it inhabited by lost souls desperate to reclaim human bodies again.",
       "duration": "6:18",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/one-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -1332,7 +1620,7 @@
         "year": 2025,
         "result": "Silver",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.377Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "27db8578dacfc9abe9b75869f7438d841b3cb55a75b5fabe26a02f79543140c7",
@@ -1360,9 +1648,12 @@
       "title": "One Last Wish",
       "creator": "Simon Valentine, Edmond Yang, Alex Holm, Erlend Loe and Reimagine AS",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67b4213b0e6191ab38a7ed33_OneLastWish%20-%20Christian%20F.%20Schussler.jpg",
       "coverStrategy": "first-image",
@@ -1378,7 +1669,7 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.948Z"
       },
       "aspect": "landscape",
       "fingerprint": "cb1d54e4d221ae56e4daa58108bb6bc86c230e9bccb84416b6706d0d33bde99d",
@@ -1402,13 +1693,67 @@
       }
     },
     {
+      "id": "runway-aiff-2023-original-voice",
+      "title": "Original Voice",
+      "creator": "Jordan Rosenbloom",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "An award winning Runway AI Film Festival work exploring storytelling, visual experimentation, and original expression through generative imagery.",
+      "duration": "",
+      "sourceId": "runway-aiff-screening-room",
+      "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
+      "sourceUrl": "https://aif.runwayml.com/screening-room",
+      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Original+Voice.webp",
+      "coverStrategy": "first-image",
+      "type": "AI 影片",
+      "tools": [
+        "Runway"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2023-01-01",
+      "award": {
+        "name": "Runway AI Film Festival",
+        "year": 2023,
+        "result": "Honoree",
+        "evidenceUrl": "https://aif.runwayml.com/screening-room",
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "1f87c355ff4f2ede98ca8d938d87d2033cf471a9370a9c03c7d7f7a7f9b60d90",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-09-07T08:42:55.438Z",
+      "cover": {
+        "local": "/covers/runway-aiff-2023-original-voice.webp",
+        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Original+Voice.webp",
+        "strategy": "first-image"
+      }
+    },
+    {
       "id": "runway-aiff-2024-pounamu",
       "title": "Pounamu",
       "creator": "Samuel Schrag",
-      "summary": "A kiwi bird chases a dream through the wilderness.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A kiwi bird chases a dream through the wilderness.",
       "duration": "4:48",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Pounamu.webp",
       "coverStrategy": "first-image",
@@ -1426,7 +1771,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "landscape",
       "fingerprint": "caaa7d84ca51207edc18c288f3ce34679e6d5765ec3924bd6ce1447e19acc231",
@@ -1454,9 +1799,12 @@
       "title": "Project J",
       "creator": "Ka Tam",
       "summary": "霓虹都市中的生化武器 J 追查禁忌实验真相，以长篇幅测试 AI 动作片的角色和场景一致性。",
+      "summaryZh": "霓虹都市中的生化武器 J 追查禁忌实验真相，以长篇幅测试 AI 动作片的角色和场景一致性。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "hkust-aiff-2026",
       "sourceName": "HKUST AI Film Festival",
+      "sourceNameEn": "HKUST AI Film Festival",
       "sourceUrl": "https://vimeo.com/1169344782",
       "coverUrl": "https://i.vimeocdn.com/video/2128070483-da93353e68e35789ae6658594ee3f0c8743e178295714755850355289d840c54-d_2400",
       "coverStrategy": "manual-override",
@@ -1476,7 +1824,7 @@
         "year": 2026,
         "result": "Best Technical Innovation Award",
         "evidenceUrl": "https://cveu.github.io/event/hkustfilm2026.html",
-        "verifiedAt": "2026-09-08T02:38:12.533Z"
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
       },
       "aspect": "landscape",
       "fingerprint": "1019c5283232d1608902eb760a892d22622bb7bac288acc20bc62fd9d60e0d84",
@@ -1503,10 +1851,13 @@
       "id": "runway-aiff-2025-rohki-a-million-trillion-pathways",
       "title": "RŌHKI - A Million Trillion Pathways",
       "creator": "Hachi and IO",
-      "summary": "A broken swordsman, a grieving immortal and a cosmic being entwine across timelines to stop an empire built on blood and memory. To save the only family he has left, Hachi must survive his past — and master the demon within.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "A broken swordsman, a grieving immortal and a cosmic being entwine across timelines to stop an empire built on blood and memory. To save the only family he has left, Hachi must survive his past — and master the demon within.",
       "duration": "5:38",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/rohki-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -1524,7 +1875,7 @@
         "year": 2025,
         "result": "Merit",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.378Z"
+        "verifiedAt": "2026-09-08T15:13:03.367Z"
       },
       "aspect": "poster",
       "fingerprint": "d4598234913c0c419677ad18672f9e3ad21bb612b9f8ee271c852a8e1bf34b20",
@@ -1551,10 +1902,13 @@
       "id": "runway-aiff-2024-separation",
       "title": "Separation",
       "creator": "Rufus Dye-Montefiore, Luke Dye-Montefiore & Alice Boyd",
-      "summary": "Separation is a trip through geologic time, depicting the evolution of bizarre hybrids. The film explores the dichotomy between how species diverge and coexist, and our inevitable adaptation to an evolving world.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "Separation is a trip through geologic time, depicting the evolution of bizarre hybrids. The film explores the dichotomy between how species diverge and coexist, and our inevitable adaptation to an evolving world.",
       "duration": "4:52",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Separation.webp",
       "coverStrategy": "first-image",
@@ -1572,7 +1926,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "1f225fb05f5b467a5960888a1c9c94fb354fbc57b56c282823a6bed0ed65d7ea",
@@ -1597,12 +1951,15 @@
     },
     {
       "id": "project-odyssey-season-2-stay-young-stay-wild",
-      "title": "Stay Young, Stay Wild ‍",
+      "title": "Stay Young, Stay Wild",
       "creator": "LeniviyArt",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae27f4f82f9051623396e1_Demon%20(44).png",
       "coverStrategy": "first-image",
@@ -1618,10 +1975,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.905Z"
+        "verifiedAt": "2026-09-08T15:13:03.950Z"
       },
       "aspect": "landscape",
-      "fingerprint": "45553106d80cf27573d1da0d019fee6231fb1b05bb6592f584f9ae821fd21140",
+      "fingerprint": "77373425164a3df2fd03fec80ff4aa00ea6eeeb64c6fa396620ad5eae901f293",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -1643,12 +2000,15 @@
     },
     {
       "id": "project-odyssey-season-2-suns",
-      "title": "SUNS ‍",
+      "title": "SUNS",
       "creator": "Sagans",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67afeabafd7da562e4d11d59_Sagans%20-%20SUNSv1_00952%20-%20Sagans.png",
       "coverStrategy": "first-image",
@@ -1664,10 +2024,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
-      "fingerprint": "e7980bea6df26ee64b6ef5b9803a1c1341d1c4e8ba87e0dc958907bdd5cc5cfa",
+      "fingerprint": "ffd039406f6a503a5f2c80749ad69555803550e7981b697a27f3581d74a66961",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -1692,9 +2052,12 @@
       "title": "The Afterlife of Aphrodite",
       "creator": "Gabriela Cardona Walther",
       "summary": "借古代神话与私人记忆重新寻找女性身份，把阿芙洛狄忒还原为流动、混乱与创造的力量。",
+      "summaryZh": "借古代神话与私人记忆重新寻找女性身份，把阿芙洛狄忒还原为流动、混乱与创造的力量。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "hkust-aiff-2026",
       "sourceName": "HKUST AI Film Festival",
+      "sourceNameEn": "HKUST AI Film Festival",
       "sourceUrl": "https://filmfreeway.com/TheAfterlifeofAphrodite",
       "coverUrl": "https://cveu.github.io/img/amcfilm/certification/2026%20Award%20Winner/web/best-film.jpg",
       "coverStrategy": "manual-override",
@@ -1710,7 +2073,7 @@
         "year": 2026,
         "result": "Best Film Award",
         "evidenceUrl": "https://cveu.github.io/event/hkustfilm2026.html",
-        "verifiedAt": "2026-09-08T02:38:12.532Z"
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
       },
       "aspect": "landscape",
       "fingerprint": "0d971b73555f67cb72ee6bcb155cdc0ae413f3e3e55861a180f4fe5f1a76d5de",
@@ -1738,9 +2101,12 @@
       "title": "The Cinema That Never Was",
       "creator": "Mark Wachholz",
       "summary": "一封写给那些从未被拍出来的电影的影像书信，让生成模型成为虚构电影史的考古工具。",
+      "summaryZh": "一封写给那些从未被拍出来的电影的影像书信，让生成模型成为虚构电影史的考古工具。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "reply-aiff-2025",
       "sourceName": "Reply AI Film Festival",
+      "sourceNameEn": "Reply AI Film Festival",
       "sourceUrl": "https://www.youtube.com/watch?v=dfludfofQGw",
       "coverUrl": "https://images.weserv.nl/?url=i.ytimg.com/vi/dfludfofQGw/hqdefault.jpg&w=640&output=jpg",
       "coverStrategy": "manual-override",
@@ -1760,7 +2126,7 @@
         "year": 2025,
         "result": "Second Prize",
         "evidenceUrl": "https://www.reply.com/en/newsroom/news/love-at-first-sight-by-jacopo-reale-is-the-winning-short-film-of-the-reply-ai-film-festival-the-international-competition-that-bridges-cinema-and-ai",
-        "verifiedAt": "2026-09-08T02:38:11.556Z"
+        "verifiedAt": "2026-09-08T15:13:04.492Z"
       },
       "aspect": "landscape",
       "fingerprint": "7d2567bd06dd511b0e80984f7bfa7c46912ba18fb61b623bdd89fe4caa2fda14",
@@ -1784,13 +2150,67 @@
       }
     },
     {
+      "id": "ai-film-festival-japan-2025-the-hidden-tremor",
+      "title": "The Hidden Tremor",
+      "creator": "Léo Cannone",
+      "summary": "一场穿越东南亚的冥想式感官旅程。镜头取自两个月的亚洲旅行，部分画面经 AI 轻微塑形，让现实表层之下的力量浮现。",
+      "summaryZh": "一场穿越东南亚的冥想式感官旅程。镜头取自两个月的亚洲旅行，部分画面经 AI 轻微塑形，让现实表层之下的力量浮现。",
+      "summaryEn": "A meditative, sensorial journey through Southeast Asia. Shot during a two-month journey, with selected images gently shaped by AI to reveal forces lingering beneath the visible world.",
+      "duration": "",
+      "sourceId": "ai-film-festival-japan-2025",
+      "sourceName": "AI Film Festival Japan",
+      "sourceNameEn": "AI Film Festival Japan",
+      "sourceUrl": "https://vimeo.com/1137819767",
+      "coverUrl": "https://i.vimeocdn.com/video/2083979405-79f7289bd47da4357c862c99637fa07b92202b95aa567b795168efd450fce387-d_2400",
+      "coverStrategy": "manual-override",
+      "type": "AI 影片",
+      "tools": [
+        "Generative AI"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2025-01-01",
+      "award": {
+        "name": "AI Film Festival Japan",
+        "year": 2025,
+        "result": "Best AI Experimental Award",
+        "evidenceUrl": "https://aifilm.jp/?page_id=2529",
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "63cd1fc8d6de654b0bf14c8b208d8e40d6b6bab075eb32c0b616f14ee8b1390b",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-09-03T16:00:00.000Z",
+      "cover": {
+        "local": "/covers/ai-film-festival-japan-2025-the-hidden-tremor.avif",
+        "remote": "https://i.vimeocdn.com/video/2083979405-79f7289bd47da4357c862c99637fa07b92202b95aa567b795168efd450fce387-d_2400",
+        "strategy": "manual-override"
+      }
+    },
+    {
       "id": "runway-aiff-2025-total-pixel-space",
       "title": "Total Pixel Space",
       "creator": "Jacob Adler",
-      "summary": "Total Pixel Space contains every possible digital image, including films of your entire life, every life you never lived, and the lives of every creature or object that ever and never existed on or off the earth, from every possible angle.",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "Total Pixel Space contains every possible digital image, including films of your entire life, every life you never lived, and the lives of every creature or object that ever and never existed on or off the earth, from every possible angle.",
       "duration": "9:28",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/posters/pixel-poster-1.jpg",
       "coverStrategy": "first-image",
@@ -1808,7 +2228,7 @@
         "year": 2025,
         "result": "Grand Prix",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.376Z"
+        "verifiedAt": "2026-09-08T15:13:03.366Z"
       },
       "aspect": "poster",
       "fingerprint": "f569e53644af4a3093f6920c0c2b17d169664e19903390fbb591ebd74b62c789",
@@ -1832,13 +2252,67 @@
       }
     },
     {
+      "id": "ai-film-festival-japan-2025-walled-dreams",
+      "title": "WALLED DREAMS",
+      "creator": "Bee Han / Yixuan Niu",
+      "summary": "高墙与冷漠街道包围的城市里，一个孤独女孩遇见毛绒小猪。它带她进入荒诞梦境，并把面对现实所需的温柔与勇气留在她心里。",
+      "summaryZh": "高墙与冷漠街道包围的城市里，一个孤独女孩遇见毛绒小猪。它带她进入荒诞梦境，并把面对现实所需的温柔与勇气留在她心里。",
+      "summaryEn": "In a city enclosed by walls and indifferent streets, a lonely girl befriends a plush pig that leads her into an absurd dream world and leaves her the courage to face reality.",
+      "duration": "",
+      "sourceId": "ai-film-festival-japan-2025",
+      "sourceName": "AI Film Festival Japan",
+      "sourceNameEn": "AI Film Festival Japan",
+      "sourceUrl": "https://www.youtube.com/watch?v=QpiZ0jkpb_w",
+      "coverUrl": "https://images.weserv.nl/?url=i.ytimg.com/vi/QpiZ0jkpb_w/hqdefault.jpg&w=1280&output=jpg",
+      "coverStrategy": "manual-override",
+      "type": "AI 影片",
+      "tools": [
+        "Generative AI"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2025-01-01",
+      "award": {
+        "name": "AI Film Festival Japan",
+        "year": 2025,
+        "result": "Best AI Animation Award",
+        "evidenceUrl": "https://aifilm.jp/?page_id=2529",
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "f1dd45dbc1b19c16abd5dad830ec83822a55b755f3321c967f59f5e874fc77dc",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-09-08T05:08:51.132Z",
+      "cover": {
+        "local": "/covers/ai-film-festival-japan-2025-walled-dreams.jpg",
+        "remote": "https://images.weserv.nl/?url=i.ytimg.com/vi/QpiZ0jkpb_w/hqdefault.jpg&w=1280&output=jpg",
+        "strategy": "manual-override"
+      }
+    },
+    {
       "id": "project-odyssey-season-2-what-do-i-know",
-      "title": "What Do I Know ‍",
+      "title": "What Do I Know",
       "creator": "Artist Artcha ft Ty - Directed by Afro Futcha",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67afeabad62f87da00c6e7ec_What%20do%20i%20know%20-%20Diane%20Laidlaw.png",
       "coverStrategy": "first-image",
@@ -1854,10 +2328,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.904Z"
+        "verifiedAt": "2026-09-08T15:13:03.949Z"
       },
       "aspect": "landscape",
-      "fingerprint": "b0c64557f096700d7d9a58359d0f5083e6ec9ac1f81852313c04c4d4ac5ed32e",
+      "fingerprint": "c96ecb90c0c9530c3efe487c2d1de66d0bb16866f021cda7f5745db7b4fb3589",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -1881,10 +2355,13 @@
       "id": "runway-aiff-2024-where-do-grandmas-go-when-they-get-lost",
       "title": "Where Do Grandmas Go When They Get Lost?",
       "creator": "Léo Cannone",
-      "summary": "Where Do Grandmas Go When They Get Lost? is a visual tale that explores, through the eyes of a child, the whimsical and poignant question of where our grandmothers go when they \"get lost.\"",
+      "summary": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryZh": "Runway AI Film Festival 获奖作品，以生成影像探索叙事、视觉实验与原创表达。",
+      "summaryEn": "Where Do Grandmas Go When They Get Lost? is a visual tale that explores, through the eyes of a child, the whimsical and poignant question of where our grandmothers go when they \"get lost.\"",
       "duration": "2:27",
       "sourceId": "runway-aiff-screening-room",
       "sourceName": "Runway AI Film Festival",
+      "sourceNameEn": "Runway AI Film Festival",
       "sourceUrl": "https://aif.runwayml.com/screening-room",
       "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Where+Do+Grandmas+Go+When+They+Get+Lost_.webp",
       "coverStrategy": "first-image",
@@ -1902,7 +2379,7 @@
         "year": 2024,
         "result": "Winner",
         "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+        "verifiedAt": "2026-09-08T15:13:03.368Z"
       },
       "aspect": "landscape",
       "fingerprint": "f906085f2019da3f1b91f88c9d8b192845b256b87b49c5c9eab7f52d83113b86",
@@ -1927,12 +2404,15 @@
     },
     {
       "id": "project-odyssey-season-2-wildlife-isn-t-decoration-set-it-free",
-      "title": "Wildlife Isn’t Decoration – Set It Free ‍",
+      "title": "Wildlife Isn’t Decoration – Set It Free",
       "creator": "ParallelRealityStudios",
       "summary": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryZh": "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      "summaryEn": "An award winning work from Project Odyssey Season 2, officially recognized for its storytelling, visual experimentation, or generative filmmaking.",
       "duration": "",
       "sourceId": "project-odyssey-season-2",
       "sourceName": "Project Odyssey",
+      "sourceNameEn": "Project Odyssey",
       "sourceUrl": "https://www.projectodyssey.ai/season-2-awards",
       "coverUrl": "https://cdn.prod.website-files.com/664bc6a13a6721626e073c1f/67ae1c43069004f6ffa8b6b4_RunnerUp.png",
       "coverStrategy": "first-image",
@@ -1948,10 +2428,10 @@
         "year": 2025,
         "result": "Award Winner",
         "evidenceUrl": "https://www.projectodyssey.ai/season-2-awards",
-        "verifiedAt": "2026-09-08T02:38:10.905Z"
+        "verifiedAt": "2026-09-08T15:13:03.950Z"
       },
       "aspect": "landscape",
-      "fingerprint": "e3f30da40fc50c430a5a62cf1dbf2323d719c93a2b3be6f0da8a77b69bd30b88",
+      "fingerprint": "a9c493e446ac37ed4ed87e37d31a25097ec14d64a70c2107bb1ecd6e71966c21",
       "machine": {
         "status": "approved",
         "score": 11,
@@ -1972,13 +2452,67 @@
       }
     },
     {
+      "id": "ai-film-festival-japan-2025-zero",
+      "title": "ZERO",
+      "creator": "DONGHA OH",
+      "summary": "著名小说家得知 AI 作家 Zero 获得诺贝尔文学奖后陷入身份危机，并去寻找 Zero 的创造者，直面作者权、身份与人类自尊。",
+      "summaryZh": "著名小说家得知 AI 作家 Zero 获得诺贝尔文学奖后陷入身份危机，并去寻找 Zero 的创造者，直面作者权、身份与人类自尊。",
+      "summaryEn": "A celebrated novelist learns that an AI author named Zero has won the Nobel Prize in Literature, then seeks out its creator in a confrontation over authorship, identity and the human ego.",
+      "duration": "",
+      "sourceId": "ai-film-festival-japan-2025",
+      "sourceName": "AI Film Festival Japan",
+      "sourceNameEn": "AI Film Festival Japan",
+      "sourceUrl": "https://www.youtube.com/watch?v=DOFf9xea8yc",
+      "coverUrl": "https://images.weserv.nl/?url=i.ytimg.com/vi/DOFf9xea8yc/maxresdefault.jpg&w=1280&output=jpg",
+      "coverStrategy": "manual-override",
+      "type": "AI 影片",
+      "tools": [
+        "Generative AI"
+      ],
+      "others": [
+        "机器发现",
+        "获奖作品"
+      ],
+      "publishedAt": "2025-01-01",
+      "award": {
+        "name": "AI Film Festival Japan",
+        "year": 2025,
+        "result": "Best AI Critic Award",
+        "evidenceUrl": "https://aifilm.jp/?page_id=2529",
+        "verifiedAt": "2026-09-08T15:13:07.271Z"
+      },
+      "aspect": "landscape",
+      "fingerprint": "5a863fd9dd27264cbeaa8a5f360c5826b202fe7785883599c663ca474044efa7",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "official-award-source",
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-09-08T05:08:51.132Z",
+      "cover": {
+        "local": "/covers/ai-film-festival-japan-2025-zero.jpg",
+        "remote": "https://images.weserv.nl/?url=i.ytimg.com/vi/DOFf9xea8yc/maxresdefault.jpg&w=1280&output=jpg",
+        "strategy": "manual-override"
+      }
+    },
+    {
       "id": "bilibili-bv1vbpmzgeqv",
       "title": "为什么我说 Kling 3.0 才是最强！！:《Left Alone》原创短片【B站AI创作大赛-开放赛道】",
       "creator": "K0IY0",
       "summary": "《Left Alone》是一部AI叙事短片。全片在 Higgsfield 平台完成，主要使用 Kling 3.0 与 Kling 2.6 进行视频生成与镜头制作。 如果你也在追求更强的电影感、镜头语言和整体一致性，希望这部片能给你一些参考与灵感。",
+      "summaryZh": "《Left Alone》是一部AI叙事短片。全片在 Higgsfield 平台完成，主要使用 Kling 3.0 与 Kling 2.6 进行视频生成与镜头制作。 如果你也在追求更强的电影感、镜头语言和整体一致性，希望这部片能给你一些参考与灵感。",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
       "duration": "9:50",
       "sourceId": "bilibili-hot-aigc",
       "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
       "sourceUrl": "https://www.bilibili.com/video/BV1VbPMzgEqV/",
       "coverUrl": "https://i2.hdslb.com/bfs/archive/c0e7cf9b57027832f3752ccf42310851f1bfe365.jpg",
       "coverStrategy": "platform-api",
@@ -1993,10 +2527,10 @@
       "publishedAt": "2026-03-01T09:03:45.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 602397,
-        "likes": 27722,
-        "favorites": 12746,
-        "capturedAt": "2026-09-08T02:38:11.553Z"
+        "views": 602615,
+        "likes": 27728,
+        "favorites": 12750,
+        "capturedAt": "2026-09-12T13:26:49.428Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2030,9 +2564,12 @@
       "title": "告别",
       "creator": "编导李让（B站发布：闲人剪辑师）",
       "summary": "从第一人称视角穿过人生不同阶段的告别，B站发布页明确标注灵感来源为编导李让。",
+      "summaryZh": "从第一人称视角穿过人生不同阶段的告别，B站发布页明确标注灵感来源为编导李让。",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
       "duration": "1:24",
       "sourceId": "bilibili-hot-aigc",
       "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
       "sourceUrl": "https://www.bilibili.com/video/BV1a9dZBoEyi/",
       "coverUrl": "https://i1.hdslb.com/bfs/archive/b682b5f5bbedd5973f21cddc5a770179df57964e.jpg",
       "coverStrategy": "platform-api",
@@ -2048,10 +2585,10 @@
       "publishedAt": "2026-04-19T07:40:10.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 5004223,
-        "likes": 79404,
-        "favorites": 77984,
-        "capturedAt": "2026-09-08T02:38:11.482Z"
+        "views": 5004306,
+        "likes": 79406,
+        "favorites": 77967,
+        "capturedAt": "2026-09-12T13:26:49.343Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2085,9 +2622,12 @@
       "title": "我这一生最大的罪，是把人写成了妖……",
       "creator": "青瓜蛋丶",
       "summary": "本片故事与人物皆为虚构。 片中妖异诸事，取材于东晋干宝的志怪作品所载汉代灾异：寺壁黄人、木不曲直、梁伯夏后、草作人状； 并参考东汉末年黄巾起义史事虚构演绎而成。",
+      "summaryZh": "本片故事与人物皆为虚构。 片中妖异诸事，取材于东晋干宝的志怪作品所载汉代灾异：寺壁黄人、木不曲直、梁伯夏后、草作人状； 并参考东汉末年黄巾起义史事虚构演绎而成。",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
       "duration": "26:14",
       "sourceId": "bilibili-hot-aigc",
       "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
       "sourceUrl": "https://www.bilibili.com/video/BV1rHbY6MEB9/",
       "coverUrl": "https://i0.hdslb.com/bfs/archive/6533ca786585f35bbf352cee7cf74c8df25fcb01.jpg",
       "coverStrategy": "platform-api",
@@ -2103,10 +2643,10 @@
       "publishedAt": "2026-08-17T05:39:57.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 18760098,
-        "likes": 1607273,
-        "favorites": 834392,
-        "capturedAt": "2026-09-08T02:38:11.314Z"
+        "views": 18817009,
+        "likes": 1610898,
+        "favorites": 836051,
+        "capturedAt": "2026-09-12T13:26:49.184Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2136,191 +2676,117 @@
       }
     },
     {
-      "id": "runway-aiff-2023-checkpoint",
-      "title": "Checkpoint",
-      "creator": "Áron Filkey and Joss Fong",
-      "summary": "",
+      "id": "douyin-viral-aigc-peony-chronicle",
+      "title": "牡丹记",
+      "creator": "刘雨晴 Esme / OYO_org",
+      "summary": "以晚唐诗人鱼玄机为灵感，把宣纸肌理、志怪叙事与超现实影像结合，讲述才情女性在封建结构中的处境。",
+      "summaryZh": "以晚唐诗人鱼玄机为灵感，把宣纸肌理、志怪叙事与超现实影像结合，讲述才情女性在封建结构中的处境。",
+      "summaryEn": "Inspired by late Tang poet Yu Xuanji, the film combines the texture of xuan paper, supernatural folklore, and surreal imagery to examine the constraints placed on talented women in feudal society.",
       "duration": "",
-      "sourceId": "runway-aiff-screening-room",
-      "sourceName": "Runway AI Film Festival",
-      "sourceUrl": "https://aif.runwayml.com/screening-room",
-      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Checkpoint.webp",
-      "coverStrategy": "first-image",
-      "type": "AI 影片",
+      "sourceId": "douyin-viral-aigc",
+      "sourceName": "抖音出圈 AIGC",
+      "sourceNameEn": "Douyin Breakout AIGC",
+      "sourceUrl": "https://www.douyin.com/video/7632316800629393145",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/01917906d07d99d24eef09722875b5b8850180e9.jpg",
+      "coverStrategy": "manual-override",
+      "type": "AI 短片",
       "tools": [
-        "Runway"
+        "Generative AI"
       ],
       "others": [
         "机器发现",
-        "获奖作品"
+        "热门作品"
       ],
-      "publishedAt": "2023-01-01",
-      "award": {
-        "name": "Runway AI Film Festival",
-        "year": 2023,
-        "result": "Gold",
-        "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+      "publishedAt": "2026-04-27",
+      "popularity": {
+        "platform": "Douyin",
+        "likes": 59000,
+        "favorites": 6855,
+        "shares": 13000,
+        "capturedAt": "2026-09-08T05:10:00.000Z"
+      },
+      "recognition": {
+        "kind": "popular",
+        "label": "抖音出圈",
+        "evidenceUrl": "https://www.douyin.com/video/7632316800629393145"
       },
       "aspect": "landscape",
-      "fingerprint": "f688630c3c286878f5fcac07375169a2f3924406ea72d912ae71496a44ebc879",
+      "fingerprint": "fdc50d9942135d7e83ead60a84da4fe5a2e0fb10754695e47c7f7feb6dc64c04",
       "machine": {
         "status": "approved",
-        "score": 9,
+        "score": 11,
         "signals": [
-          "official-award-source",
           "creator-attributed",
+          "description-present",
           "cover-extracted",
-          "source-linked"
+          "source-linked",
+          "audience-signal",
+          "recognition-evidence"
         ],
         "missing": []
       },
-      "discoveredAt": "2026-08-30T16:00:00.000Z",
+      "discoveredAt": "2026-09-08T15:08:11.120Z",
       "cover": {
-        "local": "/covers/runway-aiff-2023-checkpoint.webp",
-        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Checkpoint.webp",
-        "strategy": "first-image"
+        "local": "/covers/douyin-viral-aigc-peony-chronicle.jpg",
+        "remote": "https://i2.hdslb.com/bfs/archive/01917906d07d99d24eef09722875b5b8850180e9.jpg",
+        "strategy": "manual-override"
       }
     },
     {
-      "id": "runway-aiff-2023-generation",
-      "title": "Generation",
-      "creator": "Riccardo Fusetti",
-      "summary": "",
-      "duration": "",
-      "sourceId": "runway-aiff-screening-room",
-      "sourceName": "Runway AI Film Festival",
-      "sourceUrl": "https://aif.runwayml.com/screening-room",
-      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Generation.webp",
-      "coverStrategy": "first-image",
-      "type": "AI 影片",
+      "id": "bilibili-bv1tjb56fejs",
+      "title": "琵琶曲丨幺幺妻&老牧师",
+      "creator": "-白银silver-",
+      "summary": "原版油管老师@KotteAnimation，二创用的seedance2.5（好贵~）",
+      "summaryZh": "原版油管老师@KotteAnimation，二创用的seedance2.5（好贵~）",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
+      "duration": "1:03",
+      "sourceId": "bilibili-hot-aigc",
+      "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
+      "sourceUrl": "https://www.bilibili.com/video/BV1tjb56fEJs/",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/0e5b4035183cf33b42736572b647a307e34e852a.jpg",
+      "coverStrategy": "platform-api",
+      "type": "AI 短片",
       "tools": [
-        "Runway"
+        "Seedance"
       ],
       "others": [
         "机器发现",
-        "获奖作品"
+        "热门作品"
       ],
-      "publishedAt": "2023-01-01",
-      "award": {
-        "name": "Runway AI Film Festival",
-        "year": 2023,
-        "result": "Grand Prix",
-        "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
+      "publishedAt": "2026-09-08T10:04:40.000Z",
+      "popularity": {
+        "platform": "Bilibili",
+        "views": 2890369,
+        "likes": 268034,
+        "favorites": 121838,
+        "capturedAt": "2026-09-12T07:23:05.451Z"
+      },
+      "recognition": {
+        "kind": "popular",
+        "label": "Bilibili 热门",
+        "evidenceUrl": "https://www.bilibili.com/video/BV1tjb56fEJs/"
       },
       "aspect": "landscape",
-      "fingerprint": "ae44a1cda13457b4a0a5c9c73d878de41dee791fbe990e8ec19abeff5f3cf867",
+      "fingerprint": "50c09eb9844dbf8e484a694de0341e58b4fee69b8cd361a1492154eae10ae9ed",
       "machine": {
         "status": "approved",
-        "score": 9,
+        "score": 11,
         "signals": [
-          "official-award-source",
           "creator-attributed",
+          "description-present",
           "cover-extracted",
-          "source-linked"
+          "source-linked",
+          "audience-signal",
+          "recognition-evidence"
         ],
         "missing": []
       },
-      "discoveredAt": "2026-09-01T16:00:00.000Z",
+      "discoveredAt": "2026-09-08T10:04:40.000Z",
       "cover": {
-        "local": "/covers/runway-aiff-2023-generation.webp",
-        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Generation.webp",
-        "strategy": "first-image"
-      }
-    },
-    {
-      "id": "runway-aiff-2023-given-again",
-      "title": "Given Again",
-      "creator": "Jake Oleson",
-      "summary": "",
-      "duration": "",
-      "sourceId": "runway-aiff-screening-room",
-      "sourceName": "Runway AI Film Festival",
-      "sourceUrl": "https://aif.runwayml.com/screening-room",
-      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Given+Again.webp",
-      "coverStrategy": "first-image",
-      "type": "AI 影片",
-      "tools": [
-        "Runway"
-      ],
-      "others": [
-        "机器发现",
-        "获奖作品"
-      ],
-      "publishedAt": "2023-01-01",
-      "award": {
-        "name": "Runway AI Film Festival",
-        "year": 2023,
-        "result": "Silver",
-        "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
-      },
-      "aspect": "landscape",
-      "fingerprint": "1e89f62882210a91a33988430b2aeba21eeefbda72bb02f012fc8d32ebcf29f3",
-      "machine": {
-        "status": "approved",
-        "score": 9,
-        "signals": [
-          "official-award-source",
-          "creator-attributed",
-          "cover-extracted",
-          "source-linked"
-        ],
-        "missing": []
-      },
-      "discoveredAt": "2026-09-04T16:00:00.000Z",
-      "cover": {
-        "local": "/covers/runway-aiff-2023-given-again.webp",
-        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Given+Again.webp",
-        "strategy": "first-image"
-      }
-    },
-    {
-      "id": "runway-aiff-2023-original-voice",
-      "title": "Original Voice",
-      "creator": "Jordan Rosenbloom",
-      "summary": "",
-      "duration": "",
-      "sourceId": "runway-aiff-screening-room",
-      "sourceName": "Runway AI Film Festival",
-      "sourceUrl": "https://aif.runwayml.com/screening-room",
-      "coverUrl": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Original+Voice.webp",
-      "coverStrategy": "first-image",
-      "type": "AI 影片",
-      "tools": [
-        "Runway"
-      ],
-      "others": [
-        "机器发现",
-        "获奖作品"
-      ],
-      "publishedAt": "2023-01-01",
-      "award": {
-        "name": "Runway AI Film Festival",
-        "year": 2023,
-        "result": "Honoree",
-        "evidenceUrl": "https://aif.runwayml.com/screening-room",
-        "verifiedAt": "2026-09-08T02:38:10.379Z"
-      },
-      "aspect": "landscape",
-      "fingerprint": "1f87c355ff4f2ede98ca8d938d87d2033cf471a9370a9c03c7d7f7a7f9b60d90",
-      "machine": {
-        "status": "approved",
-        "score": 9,
-        "signals": [
-          "official-award-source",
-          "creator-attributed",
-          "cover-extracted",
-          "source-linked"
-        ],
-        "missing": []
-      },
-      "discoveredAt": "2026-09-07T08:42:55.438Z",
-      "cover": {
-        "local": "/covers/runway-aiff-2023-original-voice.webp",
-        "remote": "https://d3phaj0sisr2ct.cloudfront.net/aiff/images/winners/Original+Voice.webp",
-        "strategy": "first-image"
+        "local": "/covers/bilibili-bv1tjb56fejs.jpg",
+        "remote": "https://i2.hdslb.com/bfs/archive/0e5b4035183cf33b42736572b647a307e34e852a.jpg",
+        "strategy": "platform-api"
       }
     },
     {
@@ -2328,9 +2794,12 @@
       "title": "Air Head",
       "creator": "shy kids",
       "summary": "Sora 早期代表短片，以一个头部充满氦气的人物测试跨镜头角色一致性。",
+      "summaryZh": "Sora 早期代表短片，以一个头部充满氦气的人物测试跨镜头角色一致性。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "ai-film-landmarks",
       "sourceName": "AI Film Landmarks",
+      "sourceNameEn": "AI Film Landmarks",
       "sourceUrl": "https://vimeo.com/931578505",
       "coverUrl": "https://i.vimeocdn.com/video/1828834561-076941744bf0cf64b1178b422e45c37545ab4aa65ccfee8ef23aaf3c6c5051d5-d_2400",
       "coverStrategy": "manual-override",
@@ -2362,7 +2831,7 @@
         ],
         "missing": []
       },
-      "discoveredAt": "2026-08-27T16:00:00.000Z",
+      "discoveredAt": "2026-09-08T15:04:57.765Z",
       "cover": {
         "local": "/covers/ai-film-landmarks-air-head.avif",
         "remote": "https://i.vimeocdn.com/video/1828834561-076941744bf0cf64b1178b422e45c37545ab4aa65ccfee8ef23aaf3c6c5051d5-d_2400",
@@ -2374,9 +2843,12 @@
       "title": "The Frost",
       "creator": "Waymark Creative Labs",
       "summary": "以 DALL-E 2 图像和后期动画构成的十二分钟科幻短片，是早期完整 AI 叙事电影的重要案例。",
+      "summaryZh": "以 DALL-E 2 图像和后期动画构成的十二分钟科幻短片，是早期完整 AI 叙事电影的重要案例。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "ai-film-landmarks",
       "sourceName": "AI Film Landmarks",
+      "sourceNameEn": "AI Film Landmarks",
       "sourceUrl": "https://www.thefrost.ai/",
       "coverUrl": "https://cdn.prod.website-files.com/67576eef386242535e4d4f6e/67577e01e6e6c2a20a832fe8_image%204.png",
       "coverStrategy": "manual-override",
@@ -2409,7 +2881,7 @@
         ],
         "missing": []
       },
-      "discoveredAt": "2026-09-08T02:05:11.798Z",
+      "discoveredAt": "2026-08-13T16:00:00.000Z",
       "cover": {
         "local": "/covers/ai-film-landmarks-the-frost.png",
         "remote": "https://cdn.prod.website-files.com/67576eef386242535e4d4f6e/67577e01e6e6c2a20a832fe8_image%204.png",
@@ -2421,9 +2893,12 @@
       "title": "The Hardest Part",
       "creator": "Paul Trillo / Washed Out",
       "summary": "沿着一段关系不断向前推进的生成音乐影像，让 Sora 的梦境逻辑成为记忆失真的叙事语言。",
+      "summaryZh": "沿着一段关系不断向前推进的生成音乐影像，让 Sora 的梦境逻辑成为记忆失真的叙事语言。",
+      "summaryEn": "",
       "duration": "",
       "sourceId": "ai-film-landmarks",
       "sourceName": "AI Film Landmarks",
+      "sourceNameEn": "AI Film Landmarks",
       "sourceUrl": "https://vimeo.com/941713443",
       "coverUrl": "https://i.vimeocdn.com/video/1844899167-5901a68462f62772e1704b7aea3877785dd14d3d53512bada4c2765fd4c9e26c-d_2400",
       "coverStrategy": "manual-override",
@@ -2455,7 +2930,7 @@
         ],
         "missing": []
       },
-      "discoveredAt": "2026-09-03T16:00:00.000Z",
+      "discoveredAt": "2026-08-20T16:00:00.000Z",
       "cover": {
         "local": "/covers/ai-film-landmarks-the-hardest-part.avif",
         "remote": "https://i.vimeocdn.com/video/1844899167-5901a68462f62772e1704b7aea3877785dd14d3d53512bada4c2765fd4c9e26c-d_2400",

@@ -40,12 +40,19 @@ function decodeEntities(value = "") {
       const raw = radix === 16 ? entity.slice(2) : entity.slice(1);
       return String.fromCodePoint(Number.parseInt(raw, radix));
     })
+    .replace(/[\u200B-\u200D\uFEFF]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
 
-function stripTags(value = "") {
+export function stripTags(value = "") {
   return decodeEntities(value.replace(/<!--.*?-->/gs, "").replace(/<[^>]+>/g, " "));
+}
+
+export function isFuturePublication(value, now = new Date()) {
+  if (!value) return false;
+  const published = new Date(value);
+  return !Number.isNaN(published.getTime()) && published > now;
 }
 
 function slugify(value) {
@@ -127,11 +134,11 @@ function extractCover({ coverOverride, html, baseUrl, allowedHosts }) {
   return null;
 }
 
-async function fetchWithTimeout(url, options = {}) {
+async function fetchWithTimeout(url, options = {}, consume = null) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
   try {
-    return await fetch(url, {
+    const response = await fetch(url, {
       ...options,
       redirect: "follow",
       signal: controller.signal,
@@ -140,6 +147,7 @@ async function fetchWithTimeout(url, options = {}) {
         ...options.headers,
       },
     });
+    return consume ? await consume(response) : response;
   } finally {
     clearTimeout(timeout);
   }
@@ -147,18 +155,20 @@ async function fetchWithTimeout(url, options = {}) {
 
 async function fetchText(url, allowedHosts) {
   const safe = safeUrl(url, allowedHosts, url);
-  const response = await fetchWithTimeout(safe);
-  if (!response.ok) throw new Error(`source returned ${response.status}`);
-  safeUrl(response.url, allowedHosts, safe);
-  return response.text();
+  return fetchWithTimeout(safe, {}, async (response) => {
+    if (!response.ok) throw new Error(`source returned ${response.status}`);
+    safeUrl(response.url, allowedHosts, safe);
+    return response.text();
+  });
 }
 
 async function fetchJson(url, allowedHosts) {
   const safe = safeUrl(url, allowedHosts, url);
-  const response = await fetchWithTimeout(safe, { headers: { accept: "application/json" } });
-  if (!response.ok) throw new Error(`source returned ${response.status}`);
-  safeUrl(response.url, allowedHosts, safe);
-  return response.json();
+  return fetchWithTimeout(safe, { headers: { accept: "application/json" } }, async (response) => {
+    if (!response.ok) throw new Error(`source returned ${response.status}`);
+    safeUrl(response.url, allowedHosts, safe);
+    return response.json();
+  });
 }
 
 function formatDuration(seconds) {
@@ -199,7 +209,9 @@ function parseRunway(source, html) {
 
     const title = stripTags(fragment.match(/class="rw-h6[^>]*>([\s\S]*?)<\/div>/i)?.[1]);
     const creator = stripTags(fragment.match(/class="rw-bodycopy2[^>]*>by[\s\S]*?([\p{L}\p{N}][\s\S]*?)<\/div>/iu)?.[1]);
-    const summary = stripTags(fragment.match(/class="rw-bodycopy2\s+mt-2[^>]*>([\s\S]*?)<\/div>/i)?.[1]);
+    const summaryEn = stripTags(fragment.match(/class="rw-bodycopy2\s+mt-2[^>]*>([\s\S]*?)<\/div>/i)?.[1])
+      || source.defaultSummaryEn
+      || "";
     const italicValues = [...fragment.matchAll(/<div class="text-\[15px\][^>]*italic[^>]*>([\s\S]*?)<\/div>/gi)]
       .map((match) => stripTags(match[1]));
     const duration = italicValues.find((value) => /^\d+:\d{2}$/.test(value)) || "";
@@ -207,15 +219,19 @@ function parseRunway(source, html) {
     const cover = extractCover({ html: fragment, baseUrl: source.url, allowedHosts: source.allowedHosts });
 
     if (title && creator && cover) {
+      const summaryZh = source.summaryZh?.[title] || source.defaultSummary || "";
       const id = `runway-aiff-${awardYear}-${slugify(title)}`;
       works.push({
         id,
         title,
         creator,
-        summary,
+        summary: summaryZh || summaryEn,
+        summaryZh,
+        summaryEn,
         duration,
         sourceId: source.id,
         sourceName: source.name,
+        sourceNameEn: source.nameEn || source.name,
         sourceUrl: source.url,
         coverUrl: cover.url,
         coverStrategy: cover.strategy,
@@ -260,10 +276,13 @@ function parseProjectOdyssey(source, html) {
       id: `${source.id}-${slugify(title)}`,
       title,
       creator,
-      summary: "Project Odyssey 第二季获奖作品，以叙事、视觉实验或生成影像工艺获得官方评审认可。",
+      summary: source.defaultSummary,
+      summaryZh: source.defaultSummary,
+      summaryEn: source.defaultSummaryEn,
       duration: "",
       sourceId: source.id,
       sourceName: source.name,
+      sourceNameEn: source.nameEn || source.name,
       sourceUrl: source.url,
       coverUrl: cover.url,
       coverStrategy: cover.strategy,
@@ -290,12 +309,7 @@ function parseProjectOdyssey(source, html) {
 async function parseBilibiliHot(source) {
   const ranking = await fetchJson(source.url, source.allowedHosts);
   const ranked = Array.isArray(ranking?.data?.list) ? ranking.data.list : [];
-  const terms = source.discoveryTerms.map((value) => value.toLowerCase());
-  const discovered = ranked
-    .filter((item) => terms.some((term) => `${item.title} ${item.desc}`.toLowerCase().includes(term)))
-    .map((item) => ({ bvid: item.bvid }));
-  const seeds = [...source.seedBvids, ...discovered];
-  const uniqueSeeds = [...new Map(seeds.map((item) => [item.bvid, item])).values()];
+  const uniqueSeeds = planBilibiliCandidates(source, ranked);
   const works = [];
 
   for (const seed of uniqueSeeds) {
@@ -311,7 +325,9 @@ async function parseBilibiliHot(source) {
 
       const sourceUrl = `https://www.bilibili.com/video/${item.bvid}/`;
       const coverUrl = String(item.pic || "").replace(/^http:/, "https:");
-      const summary = stripTags(seed.summary || item.desc || "") || "从公开热榜与创作者原发页发现的 AIGC 影像作品。";
+      const summary = stripTags(seed.summary || item.desc || "")
+        || source.defaultSummary
+        || "从公开热榜与创作者原发页发现的 AIGC 影像作品。";
       const title = stripTags(seed.title || item.title);
       const tools = inferTools(`${title} ${summary}`, seed.tools || source.defaultTools);
       works.push({
@@ -319,9 +335,12 @@ async function parseBilibiliHot(source) {
         title,
         creator: stripTags(seed.creator || item.owner?.name || "Unknown creator"),
         summary: summary.slice(0, 220),
+        summaryZh: summary.slice(0, 220),
+        summaryEn: stripTags(seed.summaryEn || source.defaultSummaryEn || "").slice(0, 220),
         duration: formatDuration(item.duration),
         sourceId: source.id,
         sourceName: source.name,
+        sourceNameEn: source.nameEn || source.name,
         sourceUrl,
         coverUrl,
         coverStrategy: "platform-api",
@@ -349,6 +368,24 @@ async function parseBilibiliHot(source) {
   }
 
   return works.slice(0, source.maxItems);
+}
+
+export function planBilibiliCandidates(source, ranked) {
+  const terms = source.discoveryTerms.map((value) => value.toLowerCase());
+  const pinned = [...new Map(
+    source.seedBvids.map((item) => [String(item.bvid).toLowerCase(), { ...item, discoveryPool: "seed" }]),
+  ).values()];
+  const pinnedIds = new Set(pinned.map((item) => String(item.bvid).toLowerCase()));
+  const dynamicLimit = Math.max(0, source.maxItems - pinned.length);
+  const discovered = ranked
+    .filter((item) => item?.bvid && terms.some((term) => `${item.title || ""} ${item.desc || ""}`.toLowerCase().includes(term)))
+    .filter((item) => !pinnedIds.has(String(item.bvid).toLowerCase()))
+    .map((item) => ({ bvid: item.bvid, discoveryPool: "dynamic" }));
+  const uniqueDiscovered = [...new Map(
+    discovered.map((item) => [String(item.bvid).toLowerCase(), item]),
+  ).values()];
+
+  return [...pinned, ...uniqueDiscovered.slice(0, dynamicLimit)];
 }
 
 async function parseSeededSource(source) {
@@ -384,30 +421,38 @@ async function parseSeededSource(source) {
       const creator = stripTags(seed.creator || metadata.author_name || "");
       if (!title || !creator || !cover) throw new Error("seed metadata incomplete");
 
+      const fallbackSummary = stripTags(
+        metadata.description || metaContent(pageHtml, "property", "og:description") || source.defaultSummary || "",
+      ).slice(0, 240);
+      const summaryZh = stripTags(seed.summaryZh || seed.summary || source.defaultSummary || "").slice(0, 240);
+      const summaryEn = stripTags(seed.summaryEn || source.defaultSummaryEn || (!summaryZh ? fallbackSummary : "")).slice(0, 240);
+
       works.push({
-        id: `${source.id}-${slugify(title)}`,
+        id: seed.id || `${source.id}-${slugify(title)}`,
         title,
         creator,
-        summary: stripTags(
-          seed.summary || metadata.description || metaContent(pageHtml, "property", "og:description") || source.defaultSummary,
-        ).slice(0, 240),
+        summary: summaryZh || summaryEn || fallbackSummary,
+        summaryZh,
+        summaryEn,
         duration: seed.duration || formatDuration(metadata.duration),
         sourceId: source.id,
         sourceName: source.name,
+        sourceNameEn: source.nameEn || source.name,
         sourceUrl: seed.url,
         coverUrl: cover.url,
         coverStrategy: cover.strategy,
         type: seed.type || source.defaultType,
         tools: inferTools(`${seed.summary || ""} ${metadata.description || ""}`, seed.tools || source.defaultTools),
-        others: ["机器发现", seed.awardResult ? "获奖作品" : "重要作品"],
+        others: ["机器发现", seed.awardResult ? "获奖作品" : seed.popularity ? "热门作品" : "重要作品"],
         publishedAt: seed.publishedAt,
         award: seed.awardResult ? {
           name: source.awardName,
           year: source.awardYear,
           result: seed.awardResult,
           evidenceUrl: source.evidenceUrl,
-          verifiedAt: new Date().toISOString(),
+          verifiedAt: seed.verifiedAt || source.verifiedAt,
         } : undefined,
+        popularity: seed.popularity,
         recognition: seed.recognition || (!seed.awardResult ? {
           kind: "landmark",
           label: source.recognitionLabel || "行业重要作品",
@@ -447,7 +492,7 @@ function scoreCandidate(item, requiredFields) {
     score += 1;
     signals.push("source-linked");
   }
-  if (item.popularity?.views >= 100_000) {
+  if (item.popularity?.views >= 100_000 || item.popularity?.likes >= 50_000) {
     score += 3;
     signals.push("audience-signal");
   }
@@ -458,11 +503,23 @@ function scoreCandidate(item, requiredFields) {
   return { score, signals, missing };
 }
 
-function distributeDiscoveryDates(items, startDate, existingItems, weeklyRange) {
+export function distributeDiscoveryDates(items, startDate, existingItems, weeklyRange) {
   const start = new Date(`${startDate}T00:00:00+08:00`);
   const now = new Date();
   const weekCount = Math.max(1, Math.floor((now - start) / (7 * 86_400_000)) + 1);
-  const existing = new Map(existingItems.map((item) => [item.id, item.discoveredAt]));
+  const existingRaw = new Map(existingItems.map((item) => [item.id, item.discoveredAt]));
+  const normalizeDiscoveryDate = (item, value) => {
+    const discovered = new Date(value);
+    const published = new Date(item.publishedAt);
+    if (Number.isNaN(discovered.getTime())) return now.toISOString();
+    if (!Number.isNaN(published.getTime()) && discovered < published) discovered.setTime(published.getTime());
+    if (discovered > now) discovered.setTime(now.getTime());
+    return discovered.toISOString();
+  };
+  const existing = new Map(items.flatMap((item) => {
+    const value = existingRaw.get(item.id);
+    return value ? [[item.id, normalizeDiscoveryDate(item, value)]] : [];
+  }));
   const counts = Array.from({ length: weekCount }, () => 0);
   const target = Math.max(weeklyRange.min, Math.min(weeklyRange.max, Math.round(items.length / weekCount)));
 
@@ -476,6 +533,10 @@ function distributeDiscoveryDates(items, startDate, existingItems, weeklyRange) 
   return items.map((item) => {
     if (existing.has(item.id)) return { ...item, discoveredAt: existing.get(item.id) };
 
+    // Once an archive exists, a newly discovered work belongs to the current
+    // collection window instead of being backfilled into an older empty slot.
+    if (existingItems.length) return { ...item, discoveredAt: now.toISOString() };
+
     let week = counts.findIndex((count) => count < target);
     if (week < 0) week = counts.indexOf(Math.min(...counts));
     const offset = counts[week];
@@ -483,9 +544,51 @@ function distributeDiscoveryDates(items, startDate, existingItems, weeklyRange) 
 
     const date = new Date(start);
     date.setDate(date.getDate() + week * 7 + Math.min(offset, 6));
+    const published = new Date(item.publishedAt);
+    if (!Number.isNaN(published.getTime()) && date < published) date.setTime(published.getTime());
     if (date > now) date.setTime(now.getTime());
     return { ...item, discoveredAt: date.toISOString() };
   });
+}
+
+export function retainArchiveHistory(collected, previousItems, activeSourceIds) {
+  const active = activeSourceIds instanceof Set ? activeSourceIds : new Set(activeSourceIds);
+  const collectedIds = new Set(collected.map((item) => item.id));
+  const retained = previousItems.filter((item) => active.has(item.sourceId) && !collectedIds.has(item.id));
+  return [...collected, ...retained];
+}
+
+export function stabilizeAwardVerification(item, previousItem, source) {
+  if (!item.award) return item;
+  const verifiedAt = previousItem?.award?.verifiedAt || item.award.verifiedAt || source?.verifiedAt;
+  if (!verifiedAt) {
+    const { verifiedAt: ignored, ...award } = item.award;
+    return { ...item, award };
+  }
+  return { ...item, award: { ...item.award, verifiedAt } };
+}
+
+export function buildCoverRecord(item, previousItem, localCover, refreshed) {
+  const retainedPrevious = Boolean(localCover && previousItem?.cover && !refreshed);
+  return {
+    local: localCover,
+    remote: retainedPrevious ? previousItem.cover.remote : item.coverUrl,
+    strategy: retainedPrevious ? previousItem.cover.strategy : item.coverStrategy,
+  };
+}
+
+export function finalizeCandidate(item, previousItem, localCover, coverRefreshed) {
+  const { fragment, ...serializable } = item;
+  const machine = localCover ? serializable.machine : {
+    ...serializable.machine,
+    status: "review",
+    missing: [...new Set([...(serializable.machine?.missing || []), "cover.local"])],
+  };
+  return {
+    ...serializable,
+    machine,
+    cover: buildCoverRecord(item, previousItem, localCover, coverRefreshed),
+  };
 }
 
 function extensionFor(contentType, url) {
@@ -503,18 +606,25 @@ function extensionFor(contentType, url) {
 
 async function downloadCover(item, allowedHosts) {
   const safe = safeUrl(item.coverUrl, allowedHosts, item.sourceUrl);
-  const response = await fetchWithTimeout(safe, { headers: { accept: "image/avif,image/webp,image/png,image/jpeg" } });
-  if (!response.ok) throw new Error(`cover returned ${response.status}`);
-  safeUrl(response.url, allowedHosts, safe);
-
-  const contentType = response.headers.get("content-type") || "";
-  if (!contentType.toLowerCase().startsWith("image/")) throw new Error(`cover MIME rejected: ${contentType || "missing"}`);
-  const announcedSize = Number(response.headers.get("content-length") || 0);
-  if (announcedSize > MAX_IMAGE_BYTES) throw new Error(`cover too large: ${announcedSize}`);
-
-  const bytes = new Uint8Array(await response.arrayBuffer());
+  const { bytes, contentType, finalUrl } = await fetchWithTimeout(
+    safe,
+    { headers: { accept: "image/avif,image/webp,image/png,image/jpeg" } },
+    async (response) => {
+      if (!response.ok) throw new Error(`cover returned ${response.status}`);
+      safeUrl(response.url, allowedHosts, safe);
+      const contentType = response.headers.get("content-type") || "";
+      if (!contentType.toLowerCase().startsWith("image/")) throw new Error(`cover MIME rejected: ${contentType || "missing"}`);
+      const announcedSize = Number(response.headers.get("content-length") || 0);
+      if (announcedSize > MAX_IMAGE_BYTES) throw new Error(`cover too large: ${announcedSize}`);
+      return {
+        bytes: new Uint8Array(await response.arrayBuffer()),
+        contentType,
+        finalUrl: response.url,
+      };
+    },
+  );
   if (bytes.byteLength > MAX_IMAGE_BYTES) throw new Error(`cover too large: ${bytes.byteLength}`);
-  const extension = extensionFor(contentType, response.url);
+  const extension = extensionFor(contentType, finalUrl);
   if (!extension) throw new Error(`cover extension rejected: ${contentType}`);
 
   await mkdir(COVERS_DIR, { recursive: true });
@@ -531,8 +641,8 @@ async function main() {
   if (!config) throw new Error("data/sources.json is missing");
   const previous = await readJson(CANDIDATES_PATH, { generatedAt: null, items: [] });
   const previousById = new Map(previous.items.map((item) => [item.id, item]));
+  const sourcesById = new Map(config.sources.map((source) => [source.id, source]));
   const collected = [];
-  const failedSourceIds = new Set();
 
   for (const source of config.sources) {
     try {
@@ -550,17 +660,15 @@ async function main() {
       collected.push(...parsed);
       console.log(`[ingest] ${source.id}: ${parsed.length} candidates`);
     } catch (error) {
-      failedSourceIds.add(source.id);
       console.warn(`[ingest] ${source.id} failed; keeping last-known-good: ${error.message}`);
     }
   }
 
-  for (const item of previous.items) {
-    if (failedSourceIds.has(item.sourceId)) collected.push(item);
-  }
+  const archiveCandidates = retainArchiveHistory(collected, previous.items, new Set(sourcesById.keys()));
 
   const deduped = new Map();
-  for (const item of collected) {
+  for (const candidate of archiveCandidates) {
+    const item = stabilizeAwardVerification(candidate, previousById.get(candidate.id), sourcesById.get(candidate.sourceId));
     const fingerprint = createHash("sha256")
       .update(`${item.title.trim().toLowerCase()}\u0000${item.creator.trim().toLowerCase()}`)
       .digest("hex");
@@ -568,6 +676,7 @@ async function main() {
   }
 
   const scored = [...deduped.values()]
+    .filter((item) => !isFuturePublication(item.publishedAt))
     .map((item) => {
       const result = scoreCandidate(item, config.machineRules.requiredFields);
       return {
@@ -583,33 +692,35 @@ async function main() {
     .filter((item) => item.machine.status === "approved")
     .sort((a, b) => b.machine.score - a.machine.score || a.title.localeCompare(b.title));
 
-  const weeksSinceStart = Math.max(
-    1,
-    Math.floor((Date.now() - new Date(`${config.startDate}T00:00:00+08:00`).getTime()) / (7 * 86_400_000)) + 1,
-  );
-  const capacity = weeksSinceStart * config.weeklyRange.max;
   const stablePreviousItems = previous.policy?.assignmentVersion === 2 ? previous.items : [];
-  const dated = distributeDiscoveryDates(scored.slice(0, capacity), config.startDate, stablePreviousItems, config.weeklyRange);
+  // weeklyRange controls date distribution, never the cumulative size of the archive.
+  const dated = distributeDiscoveryDates(scored, config.startDate, stablePreviousItems, config.weeklyRange);
   const output = [];
 
   for (const item of dated) {
-    let localCover = previousById.get(item.id)?.cover?.local || null;
-    try {
-      const source = config.sources.find((entry) => entry.id === item.sourceId);
-      localCover = await downloadCover(item, source.allowedHosts);
-    } catch (error) {
-      console.warn(`[cover] ${item.id}: ${error.message}${localCover ? "; kept previous" : ""}`);
+    const previousItem = previousById.get(item.id);
+    let localCover = previousItem?.cover?.local || null;
+    let coverIsCurrent = false;
+    let coverRefreshed = false;
+    if (localCover && previousItem?.cover?.remote === item.coverUrl) {
+      try {
+        coverIsCurrent = (await stat(new URL(`public${localCover}`, ROOT))).isFile();
+      } catch {
+        coverIsCurrent = false;
+      }
     }
 
-    const { fragment, ...serializable } = item;
-    output.push({
-      ...serializable,
-      cover: {
-        local: localCover,
-        remote: item.coverUrl,
-        strategy: item.coverStrategy,
-      },
-    });
+    if (!coverIsCurrent) {
+      try {
+        const source = config.sources.find((entry) => entry.id === item.sourceId);
+        localCover = await downloadCover(item, source.allowedHosts);
+        coverRefreshed = true;
+      } catch (error) {
+        console.warn(`[cover] ${item.id}: ${error.message}${localCover ? "; kept previous" : ""}`);
+      }
+    }
+
+    output.push(finalizeCandidate(item, previousItem, localCover, coverRefreshed));
   }
 
   if (!output.length && previous.items.length) {
@@ -631,10 +742,13 @@ async function main() {
   const covers = await Promise.all(
     output.filter((item) => item.cover.local).map((item) => stat(new URL(`public${item.cover.local}`, ROOT))),
   );
-  console.log(`[ingest] wrote ${output.length} approved candidates and ${covers.length} local covers`);
+  const approvedCount = output.filter((item) => item.machine?.status === "approved").length;
+  console.log(`[ingest] wrote ${output.length} candidates (${approvedCount} approved) and ${covers.length} local covers`);
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+if (process.argv[1] && new URL(`file://${process.argv[1]}`).href === import.meta.url) {
+  main().catch((error) => {
+    console.error(error);
+    process.exitCode = 1;
+  });
+}

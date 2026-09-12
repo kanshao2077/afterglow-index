@@ -3,6 +3,7 @@ import { readFile, rename, writeFile } from "node:fs/promises";
 const ROOT = new URL("../", import.meta.url);
 const CANDIDATES_PATH = new URL("data/generated/candidates.json", ROOT);
 const CURATION_PATH = new URL("data/curation.json", ROOT);
+const LOCALIZATION_PATH = new URL("data/localization.json", ROOT);
 const CATALOG_PATH = new URL("public/data/catalog.json", ROOT);
 
 async function readJson(path, fallback) {
@@ -31,10 +32,9 @@ function editorState(rule = {}) {
 export async function buildCatalog() {
   const candidates = await readJson(CANDIDATES_PATH, { generatedAt: null, policy: {}, items: [] });
   const curation = await readJson(CURATION_PATH, { items: {} });
+  const localization = await readJson(LOCALIZATION_PATH, { zh: {}, en: {} });
   const now = new Date();
-  const archiveStart = new Date(`${candidates.policy?.startDate || "2026-08-01"}T00:00:00+08:00`);
-  const currentWeek = Math.max(0, Math.floor((now - archiveStart) / (7 * 86_400_000)));
-  const currentWeekStart = new Date(archiveStart.getTime() + currentWeek * 7 * 86_400_000);
+  const rollingWeekStart = new Date(now.getTime() - 7 * 86_400_000);
 
   const items = candidates.items
     .filter((item) => item.machine?.status === "approved")
@@ -46,9 +46,12 @@ export async function buildCatalog() {
         title: item.title,
         creator: item.creator,
         summary: item.summary,
+        summaryZh: localization.zh?.[item.id] || item.summaryZh || item.summary,
+        summaryEn: localization.en?.[item.id] || item.summaryEn || "",
         duration: item.duration,
         sourceId: item.sourceId,
         sourceName: item.sourceName,
+        sourceNameEn: item.sourceNameEn || item.sourceName,
         sourceUrl: item.sourceUrl,
         coverUrl: item.cover?.local || "/assets/hero-spectrum.png",
         type: item.type,
@@ -71,7 +74,7 @@ export async function buildCatalog() {
       return new Date(b.discoveredAt) - new Date(a.discoveredAt) || a.title.localeCompare(b.title);
     });
 
-  const weeklyCount = items.filter((item) => new Date(item.discoveredAt) >= currentWeekStart).length;
+  const weeklyCount = items.filter((item) => new Date(item.discoveredAt) >= rollingWeekStart).length;
   const output = {
     generatedAt: candidates.generatedAt,
     policy: candidates.policy,
