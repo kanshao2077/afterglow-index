@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:26:51.534Z",
+  "generatedAt": "2026-09-14T03:57:31.670Z",
   "policy": {
     "assignmentVersion": 2,
     "startDate": "2026-08-01",
@@ -87,10 +87,10 @@
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 680408,
-        "likes": 81212,
-        "favorites": 33004,
-        "capturedAt": "2026-09-12T13:26:49.264Z"
+        "views": 687079,
+        "likes": 81750,
+        "favorites": 33355,
+        "capturedAt": "2026-09-14T03:57:29.504Z"
       },
       "recognition": {
         "kind": "popular",
@@ -244,10 +244,10 @@
       "publishedAt": "2026-05-09T09:27:20.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 4137569,
-        "likes": 372428,
-        "favorites": 146144,
-        "capturedAt": "2026-09-12T13:26:49.110Z"
+        "views": 4141966,
+        "likes": 372627,
+        "favorites": 146248,
+        "capturedAt": "2026-09-14T03:57:29.001Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2527,10 +2527,10 @@
       "publishedAt": "2026-03-01T09:03:45.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 602615,
+        "views": 602679,
         "likes": 27728,
         "favorites": 12750,
-        "capturedAt": "2026-09-12T13:26:49.428Z"
+        "capturedAt": "2026-09-14T03:57:30.019Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2585,10 +2585,10 @@
       "publishedAt": "2026-04-19T07:40:10.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 5004306,
-        "likes": 79406,
-        "favorites": 77967,
-        "capturedAt": "2026-09-12T13:26:49.343Z"
+        "views": 5004338,
+        "likes": 79407,
+        "favorites": 77959,
+        "capturedAt": "2026-09-14T03:57:29.765Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2643,10 +2643,10 @@
       "publishedAt": "2026-08-17T05:39:57.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 18817009,
-        "likes": 1610898,
-        "favorites": 836051,
-        "capturedAt": "2026-09-12T13:26:49.184Z"
+        "views": 18838942,
+        "likes": 1612302,
+        "favorites": 836605,
+        "capturedAt": "2026-09-14T03:57:29.252Z"
       },
       "recognition": {
         "kind": "popular",
