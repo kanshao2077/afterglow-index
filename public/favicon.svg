@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="余光档案">
+  <defs>
+    <linearGradient id="afterglow" x1="7" y1="52" x2="57" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#315ee8" />
+      <stop offset="0.48" stop-color="#e9e4dc" />
+      <stop offset="1" stop-color="#d8653b" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="8" fill="#060606" />
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="7.25" fill="none" stroke="#2a2927" stroke-width="1.5" />
+  <path d="M7 51C20 46 39 34 57 13" fill="none" stroke="url(#afterglow)" stroke-width="7" stroke-linecap="round" opacity="0.88" />
+  <g fill="none" stroke="#f1e8de" stroke-width="4.25" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M17 19 32 8l15 11" />
+    <path d="M19 27h26" />
+    <path d="M32 27v25" />
+    <path d="M24 38 15 50" />
+    <path d="M40 38 49 50" />
+  </g>
+</svg>
