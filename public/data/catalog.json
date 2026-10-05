@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:26:51.534Z",
+  "generatedAt": "2026-10-05T04:41:11.284Z",
   "policy": {
     "assignmentVersion": 2,
     "startDate": "2026-08-01",
@@ -10,14 +10,70 @@
     }
   },
   "stats": {
-    "total": 57,
-    "weeklyCount": 0,
+    "total": 58,
+    "weeklyCount": 1,
     "editorPickCount": 0,
     "awardCount": 47,
-    "popularCount": 7,
+    "popularCount": 8,
     "sourceCount": 9
   },
   "items": [
+    {
+      "id": "bilibili-bv14shj62ezs",
+      "title": "【春物语】我的婚后生活果然有问题 第1话：于是，结婚半年的两人还没叫过对方的名字。",
+      "creator": "冰尖の霜语",
+      "summary": "结婚半年。他随了她的姓，家里有了两个\"雪之下\"。 他叫她\"雪之下\"，等于在叫自己；她还是叫他\"比企谷\"，可这世上已经没有比企谷八幡了。 半年来，两人靠\"喂\"\"那个\"\"你\"撑起了一个家。直到这天，小町打来一通电话—— 原作：《我的青春恋爱物语果然有问题》渡航 制作监督：冰尖の霜语 文本模型：Opus-5.5 图片模型：image-2.5 音乐模型：suno-V6 mini 视频模型：seedance-2.5",
+      "summaryZh": "结婚半年。他随了她的姓，家里有了两个\"雪之下\"。 他叫她\"雪之下\"，等于在叫自己；她还是叫他\"比企谷\"，可这世上已经没有比企谷八幡了。 半年来，两人靠\"喂\"\"那个\"\"你\"撑起了一个家。直到这天，小町打来一通电话—— 原作：《我的青春恋爱物语果然有问题》渡航 制作监督：冰尖の霜语 文本模型：Opus-5.5 图片模型：image-2.5 音乐模型：suno-V6 mini 视频模型：seedance-2.5",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
+      "duration": "4:29",
+      "sourceId": "bilibili-hot-aigc",
+      "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
+      "sourceUrl": "https://www.bilibili.com/video/BV14sHj62EzS/",
+      "coverUrl": "/covers/bilibili-bv14shj62ezs.jpg",
+      "type": "AI 短片",
+      "tools": [
+        "Seedance",
+        "Suno"
+      ],
+      "others": [
+        "机器发现",
+        "热门作品"
+      ],
+      "publishedAt": "2026-10-04T07:51:19.000Z",
+      "discoveredAt": "2026-10-05T04:41:07.969Z",
+      "popularity": {
+        "platform": "Bilibili",
+        "views": 1177914,
+        "likes": 42983,
+        "favorites": 24923,
+        "capturedAt": "2026-10-05T04:41:06.500Z"
+      },
+      "recognition": {
+        "kind": "popular",
+        "label": "Bilibili 热门",
+        "evidenceUrl": "https://www.bilibili.com/video/BV14sHj62EzS/"
+      },
+      "aspect": "landscape",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked",
+          "audience-signal",
+          "recognition-evidence"
+        ],
+        "missing": []
+      },
+      "editor": {
+        "picked": false,
+        "reason": "",
+        "rank": null
+      }
+    },
     {
       "id": "douyin-viral-aigc-peony-chronicle",
       "title": "牡丹记",
@@ -298,10 +354,10 @@
       "discoveredAt": "2026-09-08T02:05:11.798Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 602615,
-        "likes": 27728,
-        "favorites": 12750,
-        "capturedAt": "2026-09-12T13:26:49.428Z"
+        "views": 603787,
+        "likes": 27749,
+        "favorites": 12754,
+        "capturedAt": "2026-10-05T04:41:06.234Z"
       },
       "recognition": {
         "kind": "popular",
@@ -642,10 +698,10 @@
       "discoveredAt": "2026-09-03T16:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 5004306,
-        "likes": 79406,
-        "favorites": 77967,
-        "capturedAt": "2026-09-12T13:26:49.343Z"
+        "views": 5004767,
+        "likes": 79421,
+        "favorites": 77897,
+        "capturedAt": "2026-10-05T04:41:05.804Z"
       },
       "recognition": {
         "kind": "popular",
@@ -1863,10 +1919,10 @@
       "discoveredAt": "2026-08-15T04:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 680408,
-        "likes": 81212,
-        "favorites": 33004,
-        "capturedAt": "2026-09-12T13:26:49.264Z"
+        "views": 733274,
+        "likes": 84792,
+        "favorites": 35468,
+        "capturedAt": "2026-10-05T04:41:05.537Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2166,10 +2222,10 @@
       "discoveredAt": "2026-08-12T16:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 4137569,
-        "likes": 372428,
-        "favorites": 146144,
-        "capturedAt": "2026-09-12T13:26:49.110Z"
+        "views": 4186947,
+        "likes": 374840,
+        "favorites": 147404,
+        "capturedAt": "2026-10-05T04:41:04.975Z"
       },
       "recognition": {
         "kind": "popular",
