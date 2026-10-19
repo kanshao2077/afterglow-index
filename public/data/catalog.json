@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:26:51.534Z",
+  "generatedAt": "2026-10-19T03:46:50.796Z",
   "policy": {
     "assignmentVersion": 2,
     "startDate": "2026-08-01",
@@ -10,14 +10,69 @@
     }
   },
   "stats": {
-    "total": 57,
-    "weeklyCount": 0,
+    "total": 58,
+    "weeklyCount": 1,
     "editorPickCount": 0,
     "awardCount": 47,
-    "popularCount": 7,
+    "popularCount": 8,
     "sourceCount": 9
   },
   "items": [
+    {
+      "id": "bilibili-bv1czjb6ferf",
+      "title": "🛳️杀死伪人🛳️",
+      "creator": "海市千帆",
+      "summary": "一只踽踽独行的灰鼠， 一只觊觎宝藏的白鼠， 一只无处可逃的小鼠， 一只磨尖爪牙的硕鼠， 以及一头想把眼前之物都碾碎吞掉的圣诞怪物。 本视频角色立绘均为AI生成+后期人工修改，部分动画效果由Seedance完成，部分3D建模远景由GPT-6 Astra完成，反正我已经震惊瘫坐了。和以往一样，这期视频里很多内容是我做梦梦到的，我真的推荐文艺工作者多睡觉多做梦，很有助于灵感的迸发。 超级无敌的角色画风模型作者：@再见可可亚 可可亚大冒险 超级",
+      "summaryZh": "一只踽踽独行的灰鼠， 一只觊觎宝藏的白鼠， 一只无处可逃的小鼠， 一只磨尖爪牙的硕鼠， 以及一头想把眼前之物都碾碎吞掉的圣诞怪物。 本视频角色立绘均为AI生成+后期人工修改，部分动画效果由Seedance完成，部分3D建模远景由GPT-6 Astra完成，反正我已经震惊瘫坐了。和以往一样，这期视频里很多内容是我做梦梦到的，我真的推荐文艺工作者多睡觉多做梦，很有助于灵感的迸发。 超级无敌的角色画风模型作者：@再见可可亚 可可亚大冒险 超级",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
+      "duration": "13:26",
+      "sourceId": "bilibili-hot-aigc",
+      "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
+      "sourceUrl": "https://www.bilibili.com/video/BV1czJB6fErF/",
+      "coverUrl": "/covers/bilibili-bv1czjb6ferf.jpg",
+      "type": "AI 短片",
+      "tools": [
+        "Seedance"
+      ],
+      "others": [
+        "机器发现",
+        "热门作品"
+      ],
+      "publishedAt": "2026-10-17T14:12:08.000Z",
+      "discoveredAt": "2026-10-19T03:46:50.126Z",
+      "popularity": {
+        "platform": "Bilibili",
+        "views": 816168,
+        "likes": 51519,
+        "favorites": 29909,
+        "capturedAt": "2026-10-19T03:46:48.515Z"
+      },
+      "recognition": {
+        "kind": "popular",
+        "label": "Bilibili 热门",
+        "evidenceUrl": "https://www.bilibili.com/video/BV1czJB6fErF/"
+      },
+      "aspect": "landscape",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked",
+          "audience-signal",
+          "recognition-evidence"
+        ],
+        "missing": []
+      },
+      "editor": {
+        "picked": false,
+        "reason": "",
+        "rank": null
+      }
+    },
     {
       "id": "douyin-viral-aigc-peony-chronicle",
       "title": "牡丹记",
@@ -298,10 +353,10 @@
       "discoveredAt": "2026-09-08T02:05:11.798Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 602615,
-        "likes": 27728,
-        "favorites": 12750,
-        "capturedAt": "2026-09-12T13:26:49.428Z"
+        "views": 604308,
+        "likes": 27763,
+        "favorites": 12763,
+        "capturedAt": "2026-10-19T03:46:48.272Z"
       },
       "recognition": {
         "kind": "popular",
@@ -642,10 +697,10 @@
       "discoveredAt": "2026-09-03T16:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 5004306,
-        "likes": 79406,
-        "favorites": 77967,
-        "capturedAt": "2026-09-12T13:26:49.343Z"
+        "views": 5004987,
+        "likes": 79425,
+        "favorites": 77848,
+        "capturedAt": "2026-10-19T03:46:48.030Z"
       },
       "recognition": {
         "kind": "popular",
@@ -1863,10 +1918,10 @@
       "discoveredAt": "2026-08-15T04:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 680408,
-        "likes": 81212,
-        "favorites": 33004,
-        "capturedAt": "2026-09-12T13:26:49.264Z"
+        "views": 769622,
+        "likes": 87661,
+        "favorites": 37338,
+        "capturedAt": "2026-10-19T03:46:47.787Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2166,10 +2221,10 @@
       "discoveredAt": "2026-08-12T16:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 4137569,
-        "likes": 372428,
-        "favorites": 146144,
-        "capturedAt": "2026-09-12T13:26:49.110Z"
+        "views": 4211388,
+        "likes": 375755,
+        "favorites": 147948,
+        "capturedAt": "2026-10-19T03:46:47.310Z"
       },
       "recognition": {
         "kind": "popular",
