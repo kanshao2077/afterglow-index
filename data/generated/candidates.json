@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:26:51.534Z",
+  "generatedAt": "2026-10-26T03:48:29.265Z",
   "policy": {
     "assignmentVersion": 2,
     "startDate": "2026-08-01",
@@ -87,10 +87,10 @@
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 680408,
-        "likes": 81212,
-        "favorites": 33004,
-        "capturedAt": "2026-09-12T13:26:49.264Z"
+        "views": 785083,
+        "likes": 88600,
+        "favorites": 37983,
+        "capturedAt": "2026-10-26T03:48:27.357Z"
       },
       "recognition": {
         "kind": "popular",
@@ -244,10 +244,10 @@
       "publishedAt": "2026-05-09T09:27:20.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 4137569,
-        "likes": 372428,
-        "favorites": 146144,
-        "capturedAt": "2026-09-12T13:26:49.110Z"
+        "views": 4223942,
+        "likes": 376323,
+        "favorites": 148281,
+        "capturedAt": "2026-10-26T03:48:26.837Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2527,10 +2527,10 @@
       "publishedAt": "2026-03-01T09:03:45.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 602615,
-        "likes": 27728,
-        "favorites": 12750,
-        "capturedAt": "2026-09-12T13:26:49.428Z"
+        "views": 604563,
+        "likes": 27767,
+        "favorites": 12760,
+        "capturedAt": "2026-10-26T03:48:27.906Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2585,10 +2585,10 @@
       "publishedAt": "2026-04-19T07:40:10.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 5004306,
-        "likes": 79406,
-        "favorites": 77967,
-        "capturedAt": "2026-09-12T13:26:49.343Z"
+        "views": 5005067,
+        "likes": 79426,
+        "favorites": 77822,
+        "capturedAt": "2026-10-26T03:48:27.632Z"
       },
       "recognition": {
         "kind": "popular",
