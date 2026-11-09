@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T13:26:51.534Z",
+  "generatedAt": "2026-11-09T05:13:27.095Z",
   "policy": {
     "assignmentVersion": 2,
     "startDate": "2026-08-01",
@@ -10,6 +10,61 @@
     }
   },
   "items": [
+    {
+      "id": "bilibili-bv1irxx6le9r",
+      "title": "“妈妈，烈士是什么意思？”｜AIGC短片《南海上空的白色幽灵》81192【AI全民制作人】",
+      "creator": "Dk不吃猪肝",
+      "summary": "81192的故事，是我父亲在二十年前的一个夏夜讲给我听的。从此这个故事便悄悄在我心中扎下根来。今天，我把这个放在心底的故事，做成了自己第一部AIGC短片。 这是一个值得慢下来的故事，开始查阅历史资料后我才发现，大众所熟知的往往是撞机事件本身。所以我想拍的是英雄符号背后那个会笑、会爱、也会做梦的人。将他的阳光、浪漫和温柔从陈旧的老照片里找回来。 片中藏了一些细节彩蛋，欢迎在评论区告诉我你发现了什么～ （注：本片依据公开历史资料进行艺术化改",
+      "summaryZh": "81192的故事，是我父亲在二十年前的一个夏夜讲给我听的。从此这个故事便悄悄在我心中扎下根来。今天，我把这个放在心底的故事，做成了自己第一部AIGC短片。 这是一个值得慢下来的故事，开始查阅历史资料后我才发现，大众所熟知的往往是撞机事件本身。所以我想拍的是英雄符号背后那个会笑、会爱、也会做梦的人。将他的阳光、浪漫和温柔从陈旧的老照片里找回来。 片中藏了一些细节彩蛋，欢迎在评论区告诉我你发现了什么～ （注：本片依据公开历史资料进行艺术化改",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
+      "duration": "18:50",
+      "sourceId": "bilibili-hot-aigc",
+      "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
+      "sourceUrl": "https://www.bilibili.com/video/BV1irxX6LE9R/",
+      "coverUrl": "https://i2.hdslb.com/bfs/archive/019781c0b39fbe03de4773f1de1babc27a9793e7.jpg",
+      "coverStrategy": "platform-api",
+      "type": "AI 短片",
+      "tools": [],
+      "others": [
+        "机器发现",
+        "热门作品"
+      ],
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "popularity": {
+        "platform": "Bilibili",
+        "views": 397067,
+        "likes": 60737,
+        "favorites": 20121,
+        "capturedAt": "2026-11-09T05:13:21.632Z"
+      },
+      "recognition": {
+        "kind": "popular",
+        "label": "Bilibili 热门",
+        "evidenceUrl": "https://www.bilibili.com/video/BV1irxX6LE9R/"
+      },
+      "aspect": "landscape",
+      "fingerprint": "54dfabd36b29a9b3e8a164b16f9972b89b2e8449863f38559fe5e22a5841576e",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked",
+          "audience-signal",
+          "recognition-evidence"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-11-09T05:13:26.144Z",
+      "cover": {
+        "local": "/covers/bilibili-bv1irxx6le9r.jpg",
+        "remote": "https://i2.hdslb.com/bfs/archive/019781c0b39fbe03de4773f1de1babc27a9793e7.jpg",
+        "strategy": "platform-api"
+      }
+    },
     {
       "id": "runway-aiff-2025-6000-lies",
       "title": "6000 Lies",
@@ -87,10 +142,10 @@
       "publishedAt": "2026-08-15T04:00:00.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 680408,
-        "likes": 81212,
-        "favorites": 33004,
-        "capturedAt": "2026-09-12T13:26:49.264Z"
+        "views": 805234,
+        "likes": 89759,
+        "favorites": 38866,
+        "capturedAt": "2026-11-09T05:13:20.765Z"
       },
       "recognition": {
         "kind": "popular",
@@ -244,10 +299,10 @@
       "publishedAt": "2026-05-09T09:27:20.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 4137569,
-        "likes": 372428,
-        "favorites": 146144,
-        "capturedAt": "2026-09-12T13:26:49.110Z"
+        "views": 4244329,
+        "likes": 377059,
+        "favorites": 148693,
+        "capturedAt": "2026-11-09T05:13:20.334Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2527,10 +2582,10 @@
       "publishedAt": "2026-03-01T09:03:45.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 602615,
-        "likes": 27728,
+        "views": 605052,
+        "likes": 27778,
         "favorites": 12750,
-        "capturedAt": "2026-09-12T13:26:49.428Z"
+        "capturedAt": "2026-11-09T05:13:21.194Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2585,10 +2640,10 @@
       "publishedAt": "2026-04-19T07:40:10.000Z",
       "popularity": {
         "platform": "Bilibili",
-        "views": 5004306,
-        "likes": 79406,
-        "favorites": 77967,
-        "capturedAt": "2026-09-12T13:26:49.343Z"
+        "views": 5005220,
+        "likes": 79428,
+        "favorites": 77785,
+        "capturedAt": "2026-11-09T05:13:20.980Z"
       },
       "recognition": {
         "kind": "popular",
@@ -2614,6 +2669,63 @@
       "cover": {
         "local": "/covers/bilibili-bv1a9dzboeyi.jpg",
         "remote": "https://i1.hdslb.com/bfs/archive/b682b5f5bbedd5973f21cddc5a770179df57964e.jpg",
+        "strategy": "platform-api"
+      }
+    },
+    {
+      "id": "bilibili-bv1ydxr6ce79",
+      "title": "大肥鱼：自 由 美 利 鲸",
+      "creator": "真誠最高",
+      "summary": "视频内容仅供娱乐，不代表对任何AI产品的商业评价或技术评测。角色形象参考来自b站up：@ZipZipPipe @这个刀子真甜 updream是自己根据updream出的形象设计的 视频模型：seedance2.5 AI开支相当大，在此请求各位投币支持！您投的每个币都会变成算力积分，帮助提高质量！非常感谢各位支持！ 由ai制作，不可避免存在瑕疵，敬请谅解。",
+      "summaryZh": "视频内容仅供娱乐，不代表对任何AI产品的商业评价或技术评测。角色形象参考来自b站up：@ZipZipPipe @这个刀子真甜 updream是自己根据updream出的形象设计的 视频模型：seedance2.5 AI开支相当大，在此请求各位投币支持！您投的每个币都会变成算力积分，帮助提高质量！非常感谢各位支持！ 由ai制作，不可避免存在瑕疵，敬请谅解。",
+      "summaryEn": "An AIGC moving image work discovered through Bilibili rankings and creator uploads.",
+      "duration": "2:17",
+      "sourceId": "bilibili-hot-aigc",
+      "sourceName": "Bilibili 热门 AIGC",
+      "sourceNameEn": "Bilibili Trending AIGC",
+      "sourceUrl": "https://www.bilibili.com/video/BV1YdxR6CE79/",
+      "coverUrl": "https://i1.hdslb.com/bfs/archive/36ab41954fefe865156ff6353c16fc407d52926d.jpg",
+      "coverStrategy": "platform-api",
+      "type": "AI 短片",
+      "tools": [
+        "Seedance"
+      ],
+      "others": [
+        "机器发现",
+        "热门作品"
+      ],
+      "publishedAt": "2026-11-05T09:00:00.000Z",
+      "popularity": {
+        "platform": "Bilibili",
+        "views": 2084282,
+        "likes": 183197,
+        "favorites": 64045,
+        "capturedAt": "2026-11-09T05:13:21.416Z"
+      },
+      "recognition": {
+        "kind": "popular",
+        "label": "Bilibili 热门",
+        "evidenceUrl": "https://www.bilibili.com/video/BV1YdxR6CE79/"
+      },
+      "aspect": "landscape",
+      "fingerprint": "5647c10c268990236287ba7f9443166b9d463e5fa2235f857e298cef01dc9d71",
+      "machine": {
+        "status": "approved",
+        "score": 11,
+        "signals": [
+          "creator-attributed",
+          "description-present",
+          "cover-extracted",
+          "source-linked",
+          "audience-signal",
+          "recognition-evidence"
+        ],
+        "missing": []
+      },
+      "discoveredAt": "2026-11-09T05:13:26.144Z",
+      "cover": {
+        "local": "/covers/bilibili-bv1ydxr6ce79.jpg",
+        "remote": "https://i1.hdslb.com/bfs/archive/36ab41954fefe865156ff6353c16fc407d52926d.jpg",
         "strategy": "platform-api"
       }
     },
